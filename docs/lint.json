@@ -5,39 +5,39 @@
     "lines": [
       {
         "lineNumber": 153,
-        "line": "  /**"
+        "line": "  /**\r"
       },
       {
         "lineNumber": 154,
-        "line": "   * Change the target's properties according to specific behaviour logic."
+        "line": "   * Change the target's properties according to specific behaviour logic.\r"
       },
       {
         "lineNumber": 155,
-        "line": "   *"
+        "line": "   *\r"
       },
       {
         "lineNumber": 156,
-        "line": "   * @abstract"
+        "line": "   * @abstract\r"
       },
       {
         "lineNumber": 157,
-        "line": "   * @param {Particle|Emitter} target - The particle or emitter to apply the behaviour to"
+        "line": "   * @param {Particle|Emitter} target - The particle or emitter to apply the behaviour to\r"
       },
       {
         "lineNumber": 158,
-        "line": "   * @param {Number} time - the system integration time"
+        "line": "   * @param {Number} time - the system integration time\r"
       },
       {
         "lineNumber": 159,
-        "line": "   * @return mixed"
+        "line": "   * @return mixed\r"
       },
       {
         "lineNumber": 160,
-        "line": "   */"
+        "line": "   */\r"
       },
       {
         "lineNumber": 161,
-        "line": "  mutate(target, time, index) {} // eslint-disable-line"
+        "line": "  mutate(target, time, index) {} // eslint-disable-line\r"
       }
     ],
     "codeParams": [
@@ -49,5 +49,427 @@
       "target",
       "time"
     ]
+  },
+  {
+    "name": "Pool#create",
+    "filePath": "src/core/Pool.js",
+    "lines": [
+      {
+        "lineNumber": 32,
+        "line": "  /**\r"
+      },
+      {
+        "lineNumber": 33,
+        "line": "   * Attempts to create a new object either by creating a new instance or calling its\r"
+      },
+      {
+        "lineNumber": 34,
+        "line": "   * clone method.\r"
+      },
+      {
+        "lineNumber": 35,
+        "line": "   *\r"
+      },
+      {
+        "lineNumber": 36,
+        "line": "   * TODO COVERAGE - for the constructorArgs\r"
+      },
+      {
+        "lineNumber": 37,
+        "line": "   * @param {function|object} functionOrObject - The object to instantiate or clone\r"
+      },
+      {
+        "lineNumber": 38,
+        "line": "   * @return {object|undefined}\r"
+      },
+      {
+        "lineNumber": 39,
+        "line": "   */\r"
+      },
+      {
+        "lineNumber": 40,
+        "line": "  create(functionOrObject, ...constructorArgs) {\r"
+      }
+    ],
+    "codeParams": [
+      "functionOrObject",
+      "constructorArgs"
+    ],
+    "docParams": [
+      "functionOrObject"
+    ]
+  },
+  {
+    "name": "Emitter#addOnEmitterDeadEventListener",
+    "filePath": "src/emitter/Emitter.js",
+    "lines": [
+      {
+        "lineNumber": 498,
+        "line": "  /**\r"
+      },
+      {
+        "lineNumber": 499,
+        "line": "   * Adds the event listener for the EMITTER_DEAD event.\r"
+      },
+      {
+        "lineNumber": 500,
+        "line": "   *\r"
+      },
+      {
+        "lineNumber": 501,
+        "line": "   * @param {onEmitterDead} - The function to call when the EMITTER_DEAD is dispatched.\r"
+      },
+      {
+        "lineNumber": 502,
+        "line": "   * @return {Emitter}\r"
+      },
+      {
+        "lineNumber": 503,
+        "line": "   */\r"
+      },
+      {
+        "lineNumber": 504,
+        "line": "  addOnEmitterDeadEventListener(onEmitterDead) {\r"
+      }
+    ],
+    "codeParams": [
+      "onEmitterDead"
+    ],
+    "docParams": [
+      "-"
+    ]
+  },
+  {
+    "name": "Emitter#setupParticle",
+    "filePath": "src/emitter/Emitter.js",
+    "lines": [
+      {
+        "lineNumber": 529,
+        "line": "  /**\r"
+      },
+      {
+        "lineNumber": 530,
+        "line": "   * Sets up a particle by running all initializers on it and setting its behaviours.\r"
+      },
+      {
+        "lineNumber": 531,
+        "line": "   * Also adds the particle to this.particles.\r"
+      },
+      {
+        "lineNumber": 532,
+        "line": "   *\r"
+      },
+      {
+        "lineNumber": 533,
+        "line": "   * @param {Particle} particle - The particle to setup\r"
+      },
+      {
+        "lineNumber": 534,
+        "line": "   * @return void\r"
+      },
+      {
+        "lineNumber": 535,
+        "line": "   */\r"
+      },
+      {
+        "lineNumber": 536,
+        "line": "  setupParticle(particle, index) {\r"
+      }
+    ],
+    "codeParams": [
+      "particle",
+      "index"
+    ],
+    "docParams": [
+      "particle"
+    ]
+  },
+  {
+    "name": "DesktopGPURenderer#onParticleCreated",
+    "filePath": "src/renderer/GPURenderer/Desktop/index.js",
+    "lines": [
+      {
+        "lineNumber": 71,
+        "line": "  /**\r"
+      },
+      {
+        "lineNumber": 72,
+        "line": "   * Pools the particle target if it does not exist.\r"
+      },
+      {
+        "lineNumber": 73,
+        "line": "   * Updates the target and maps particle properties to the point.\r"
+      },
+      {
+        "lineNumber": 74,
+        "line": "   *\r"
+      },
+      {
+        "lineNumber": 75,
+        "line": "   * @param {Particle}\r"
+      },
+      {
+        "lineNumber": 76,
+        "line": "   */\r"
+      },
+      {
+        "lineNumber": 77,
+        "line": "  onParticleCreated(particle) {\r"
+      }
+    ],
+    "codeParams": [
+      "particle"
+    ],
+    "docParams": []
+  },
+  {
+    "name": "DesktopGPURenderer#onParticleUpdate",
+    "filePath": "src/renderer/GPURenderer/Desktop/index.js",
+    "lines": [
+      {
+        "lineNumber": 86,
+        "line": "  /**\r"
+      },
+      {
+        "lineNumber": 87,
+        "line": "   * Maps particle properties to the point if the particle has a target.\r"
+      },
+      {
+        "lineNumber": 88,
+        "line": "   *\r"
+      },
+      {
+        "lineNumber": 89,
+        "line": "   * @param {Particle}\r"
+      },
+      {
+        "lineNumber": 90,
+        "line": "   */\r"
+      },
+      {
+        "lineNumber": 91,
+        "line": "  onParticleUpdate(particle) {\r"
+      }
+    ],
+    "codeParams": [
+      "particle"
+    ],
+    "docParams": []
+  },
+  {
+    "name": "DesktopGPURenderer#onParticleDead",
+    "filePath": "src/renderer/GPURenderer/Desktop/index.js",
+    "lines": [
+      {
+        "lineNumber": 99,
+        "line": "  /**\r"
+      },
+      {
+        "lineNumber": 100,
+        "line": "   * Resets and clears the particle target.\r"
+      },
+      {
+        "lineNumber": 101,
+        "line": "   *\r"
+      },
+      {
+        "lineNumber": 102,
+        "line": "   * @param {Particle}\r"
+      },
+      {
+        "lineNumber": 103,
+        "line": "   */\r"
+      },
+      {
+        "lineNumber": 104,
+        "line": "  onParticleDead(particle) {\r"
+      }
+    ],
+    "codeParams": [
+      "particle"
+    ],
+    "docParams": []
+  },
+  {
+    "name": "DesktopGPURenderer#updateTarget",
+    "filePath": "src/renderer/GPURenderer/Desktop/index.js",
+    "lines": [
+      {
+        "lineNumber": 115,
+        "line": "  /**\r"
+      },
+      {
+        "lineNumber": 116,
+        "line": "   * Maps all mutable properties from the particle to the target.\r"
+      },
+      {
+        "lineNumber": 117,
+        "line": "   *\r"
+      },
+      {
+        "lineNumber": 118,
+        "line": "   * @param {Particle}\r"
+      },
+      {
+        "lineNumber": 119,
+        "line": "   * @return {DesktopGPURenderer}\r"
+      },
+      {
+        "lineNumber": 120,
+        "line": "   */\r"
+      },
+      {
+        "lineNumber": 121,
+        "line": "  updateTarget(particle) {\r"
+      }
+    ],
+    "codeParams": [
+      "particle"
+    ],
+    "docParams": []
+  },
+  {
+    "name": "MobileGPURenderer#onParticleCreated",
+    "filePath": "src/renderer/GPURenderer/Mobile/index.js",
+    "lines": [
+      {
+        "lineNumber": 79,
+        "line": "  /**\r"
+      },
+      {
+        "lineNumber": 80,
+        "line": "   * Pools the particle target if it does not exist.\r"
+      },
+      {
+        "lineNumber": 81,
+        "line": "   * Updates the target and maps particle properties to the point.\r"
+      },
+      {
+        "lineNumber": 82,
+        "line": "   *\r"
+      },
+      {
+        "lineNumber": 83,
+        "line": "   * @param {Particle}\r"
+      },
+      {
+        "lineNumber": 84,
+        "line": "   */\r"
+      },
+      {
+        "lineNumber": 85,
+        "line": "  onParticleCreated(particle) {\r"
+      }
+    ],
+    "codeParams": [
+      "particle"
+    ],
+    "docParams": []
+  },
+  {
+    "name": "MobileGPURenderer#onParticleUpdate",
+    "filePath": "src/renderer/GPURenderer/Mobile/index.js",
+    "lines": [
+      {
+        "lineNumber": 94,
+        "line": "  /**\r"
+      },
+      {
+        "lineNumber": 95,
+        "line": "   * Maps particle properties to the point if the particle has a target.\r"
+      },
+      {
+        "lineNumber": 96,
+        "line": "   *\r"
+      },
+      {
+        "lineNumber": 97,
+        "line": "   * @param {Particle}\r"
+      },
+      {
+        "lineNumber": 98,
+        "line": "   */\r"
+      },
+      {
+        "lineNumber": 99,
+        "line": "  onParticleUpdate(particle) {\r"
+      }
+    ],
+    "codeParams": [
+      "particle"
+    ],
+    "docParams": []
+  },
+  {
+    "name": "MobileGPURenderer#onParticleDead",
+    "filePath": "src/renderer/GPURenderer/Mobile/index.js",
+    "lines": [
+      {
+        "lineNumber": 107,
+        "line": "  /**\r"
+      },
+      {
+        "lineNumber": 108,
+        "line": "   * Resets and clears the particle target.\r"
+      },
+      {
+        "lineNumber": 109,
+        "line": "   *\r"
+      },
+      {
+        "lineNumber": 110,
+        "line": "   * @param {Particle}\r"
+      },
+      {
+        "lineNumber": 111,
+        "line": "   */\r"
+      },
+      {
+        "lineNumber": 112,
+        "line": "  onParticleDead(particle) {\r"
+      }
+    ],
+    "codeParams": [
+      "particle"
+    ],
+    "docParams": []
+  },
+  {
+    "name": "MobileGPURenderer#updateTarget",
+    "filePath": "src/renderer/GPURenderer/Mobile/index.js",
+    "lines": [
+      {
+        "lineNumber": 123,
+        "line": "  /**\r"
+      },
+      {
+        "lineNumber": 124,
+        "line": "   * Maps all mutable properties from the particle to the target.\r"
+      },
+      {
+        "lineNumber": 125,
+        "line": "   *\r"
+      },
+      {
+        "lineNumber": 126,
+        "line": "   * @param {Particle}\r"
+      },
+      {
+        "lineNumber": 127,
+        "line": "   * @return {GPURenderer}\r"
+      },
+      {
+        "lineNumber": 128,
+        "line": "   */\r"
+      },
+      {
+        "lineNumber": 129,
+        "line": "  updateTarget(particle) {\r"
+      }
+    ],
+    "codeParams": [
+      "particle"
+    ],
+    "docParams": []
   }
 ]

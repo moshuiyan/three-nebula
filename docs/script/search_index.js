@@ -6,6 +6,24 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~all_byte_sizes",
+    "variable/index.html#static-variable-ALL_BYTE_SIZES",
+    "<span>ALL_BYTE_SIZES</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
+    "variable"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~alpha_attribute_buffer_size",
+    "variable/index.html#static-variable-ALPHA_ATTRIBUTE_BUFFER_SIZE",
+    "<span>ALPHA_ATTRIBUTE_BUFFER_SIZE</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
+    "variable"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~attribute_to_size_map",
+    "variable/index.html#static-variable-ATTRIBUTE_TO_SIZE_MAP",
+    "<span>ATTRIBUTE_TO_SIZE_MAP</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
+    "variable"
+  ],
+  [
     "three-nebula/src/core/three/constants.js~addequation",
     "variable/index.html#static-variable-AddEquation",
     "<span>AddEquation</span> <span class=\"search-result-import-path\">three-nebula/src/core/three/constants.js</span>",
@@ -312,6 +330,12 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
+    "three-nebula/src/renderer/gpurenderer/common/textureatlas/constants.js~data_texture_size",
+    "variable/index.html#static-variable-DATA_TEXTURE_SIZE",
+    "<span>DATA_TEXTURE_SIZE</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/TextureAtlas/constants.js</span>",
+    "variable"
+  ],
+  [
     "three-nebula/src/core/constants.js~default_age",
     "variable/index.html#static-variable-DEFAULT_AGE",
     "<span>DEFAULT_AGE</span> <span class=\"search-result-import-path\">three-nebula/src/core/constants.js</span>",
@@ -396,6 +420,12 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
+    "three-nebula/src/emitter/constants.js~default_emitter_index",
+    "variable/index.html#static-variable-DEFAULT_EMITTER_INDEX",
+    "<span>DEFAULT_EMITTER_INDEX</span> <span class=\"search-result-import-path\">three-nebula/src/emitter/constants.js</span>",
+    "variable"
+  ],
+  [
     "three-nebula/src/emitter/constants.js~default_emitter_rate",
     "variable/index.html#static-variable-DEFAULT_EMITTER_RATE",
     "<span>DEFAULT_EMITTER_RATE</span> <span class=\"search-result-import-path\">three-nebula/src/emitter/constants.js</span>",
@@ -411,6 +441,12 @@ window.esdocSearchIndex = [
     "three-nebula/src/debug/constants.js~default_height",
     "variable/index.html#static-variable-DEFAULT_HEIGHT",
     "<span>DEFAULT_HEIGHT</span> <span class=\"search-result-import-path\">three-nebula/src/debug/constants.js</span>",
+    "variable"
+  ],
+  [
+    "three-nebula/src/core/constants.js~default_index",
+    "variable/index.html#static-variable-DEFAULT_INDEX",
+    "<span>DEFAULT_INDEX</span> <span class=\"search-result-import-path\">three-nebula/src/core/constants.js</span>",
     "variable"
   ],
   [
@@ -441,6 +477,12 @@ window.esdocSearchIndex = [
     "three-nebula/src/initializer/constants.js~default_material_properties",
     "variable/index.html#static-variable-DEFAULT_MATERIAL_PROPERTIES",
     "<span>DEFAULT_MATERIAL_PROPERTIES</span> <span class=\"search-result-import-path\">three-nebula/src/initializer/constants.js</span>",
+    "variable"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~default_max_particles",
+    "variable/index.html#static-variable-DEFAULT_MAX_PARTICLES",
+    "<span>DEFAULT_MAX_PARTICLES</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
     "variable"
   ],
   [
@@ -483,6 +525,12 @@ window.esdocSearchIndex = [
     "three-nebula/src/initializer/constants.js~default_rate_time_pan",
     "variable/index.html#static-variable-DEFAULT_RATE_TIME_PAN",
     "<span>DEFAULT_RATE_TIME_PAN</span> <span class=\"search-result-import-path\">three-nebula/src/initializer/constants.js</span>",
+    "variable"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/common/constants.js~default_renderer_options",
+    "variable/index.html#static-variable-DEFAULT_RENDERER_OPTIONS",
+    "<span>DEFAULT_RENDERER_OPTIONS</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/constants.js</span>",
     "variable"
   ],
   [
@@ -546,6 +594,12 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
+    "three-nebula/src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html",
+    "<span>DesktopGPURenderer</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/Desktop/index.js</span>",
+    "class"
+  ],
+  [
     "three-nebula/src/core/three/constants.js~doubleside",
     "variable/index.html#static-variable-DoubleSide",
     "<span>DoubleSide</span> <span class=\"search-result-import-path\">three-nebula/src/core/three/constants.js</span>",
@@ -564,21 +618,15 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
-    "three-nebula/src/constants/index.js~emitter_added",
-    "variable/index.html#static-variable-EMITTER_ADDED",
-    "<span>EMITTER_ADDED</span> <span class=\"search-result-import-path\">three-nebula/src/constants/index.js</span>",
-    "variable"
-  ],
-  [
     "three-nebula/src/events/constants.js~emitter_added",
     "variable/index.html#static-variable-EMITTER_ADDED",
     "<span>EMITTER_ADDED</span> <span class=\"search-result-import-path\">three-nebula/src/events/constants.js</span>",
     "variable"
   ],
   [
-    "three-nebula/src/constants/index.js~emitter_removed",
-    "variable/index.html#static-variable-EMITTER_REMOVED",
-    "<span>EMITTER_REMOVED</span> <span class=\"search-result-import-path\">three-nebula/src/constants/index.js</span>",
+    "three-nebula/src/events/constants.js~emitter_dead",
+    "variable/index.html#static-variable-EMITTER_DEAD",
+    "<span>EMITTER_DEAD</span> <span class=\"search-result-import-path\">three-nebula/src/events/constants.js</span>",
     "variable"
   ],
   [
@@ -642,6 +690,12 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~float_byte_size",
+    "variable/index.html#static-variable-FLOAT_BYTE_SIZE",
+    "<span>FLOAT_BYTE_SIZE</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
+    "variable"
+  ],
+  [
     "three-nebula/src/core/three/constants.js~facecolors",
     "variable/index.html#static-variable-FaceColors",
     "<span>FaceColors</span> <span class=\"search-result-import-path\">three-nebula/src/core/three/constants.js</span>",
@@ -688,6 +742,12 @@ window.esdocSearchIndex = [
     "variable/index.html#static-variable-FrontSide",
     "<span>FrontSide</span> <span class=\"search-result-import-path\">three-nebula/src/core/three/constants.js</span>",
     "variable"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/index.js~gpurenderer",
+    "class/src/renderer/GPURenderer/index.js~GPURenderer.html",
+    "<span>GPURenderer</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/index.js</span>",
+    "class"
   ],
   [
     "three-nebula/src/core/three/constants.js~gammaencoding",
@@ -783,6 +843,12 @@ window.esdocSearchIndex = [
     "three-nebula/src/initializer/types.js~initializer_type_rate",
     "variable/index.html#static-variable-INITIALIZER_TYPE_RATE",
     "<span>INITIALIZER_TYPE_RATE</span> <span class=\"search-result-import-path\">three-nebula/src/initializer/types.js</span>",
+    "variable"
+  ],
+  [
+    "three-nebula/src/initializer/types.js~initializer_type_rotation",
+    "variable/index.html#static-variable-INITIALIZER_TYPE_ROTATION",
+    "<span>INITIALIZER_TYPE_ROTATION</span> <span class=\"search-result-import-path\">three-nebula/src/initializer/types.js</span>",
     "variable"
   ],
   [
@@ -1044,6 +1110,12 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
+    "three-nebula/src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html",
+    "<span>MobileGPURenderer</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/Mobile/index.js</span>",
+    "class"
+  ],
+  [
     "three-nebula/src/core/three/constants.js~multiplyblending",
     "variable/index.html#static-variable-MultiplyBlending",
     "<span>MultiplyBlending</span> <span class=\"search-result-import-path\">three-nebula/src/core/three/constants.js</span>",
@@ -1152,21 +1224,15 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
-    "three-nebula/src/constants/index.js~particle_created",
-    "variable/index.html#static-variable-PARTICLE_CREATED",
-    "<span>PARTICLE_CREATED</span> <span class=\"search-result-import-path\">three-nebula/src/constants/index.js</span>",
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~particle_byte_size",
+    "variable/index.html#static-variable-PARTICLE_BYTE_SIZE",
+    "<span>PARTICLE_BYTE_SIZE</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
     "variable"
   ],
   [
     "three-nebula/src/events/constants.js~particle_created",
     "variable/index.html#static-variable-PARTICLE_CREATED",
     "<span>PARTICLE_CREATED</span> <span class=\"search-result-import-path\">three-nebula/src/events/constants.js</span>",
-    "variable"
-  ],
-  [
-    "three-nebula/src/constants/index.js~particle_dead",
-    "variable/index.html#static-variable-PARTICLE_DEAD",
-    "<span>PARTICLE_DEAD</span> <span class=\"search-result-import-path\">three-nebula/src/constants/index.js</span>",
     "variable"
   ],
   [
@@ -1182,15 +1248,9 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
-    "three-nebula/src/constants/index.js~particle_sleep",
-    "variable/index.html#static-variable-PARTICLE_SLEEP",
-    "<span>PARTICLE_SLEEP</span> <span class=\"search-result-import-path\">three-nebula/src/constants/index.js</span>",
-    "variable"
-  ],
-  [
-    "three-nebula/src/constants/index.js~particle_update",
-    "variable/index.html#static-variable-PARTICLE_UPDATE",
-    "<span>PARTICLE_UPDATE</span> <span class=\"search-result-import-path\">three-nebula/src/constants/index.js</span>",
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~particle_stride",
+    "variable/index.html#static-variable-PARTICLE_STRIDE",
+    "<span>PARTICLE_STRIDE</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
     "variable"
   ],
   [
@@ -1224,21 +1284,33 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~position_attribute_buffer_size",
+    "variable/index.html#static-variable-POSITION_ATTRIBUTE_BUFFER_SIZE",
+    "<span>POSITION_ATTRIBUTE_BUFFER_SIZE</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
+    "variable"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~position_byte_size",
+    "variable/index.html#static-variable-POSITION_BYTE_SIZE",
+    "<span>POSITION_BYTE_SIZE</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
+    "variable"
+  ],
+  [
     "three-nebula/src/core/particle.js~particle",
     "class/src/core/Particle.js~Particle.html",
     "<span>Particle</span> <span class=\"search-result-import-path\">three-nebula/src/core/Particle.js</span>",
     "class"
   ],
   [
-    "three-nebula/src/zone/pointzone.js~pointzone",
-    "class/src/zone/PointZone.js~PointZone.html",
-    "<span>PointZone</span> <span class=\"search-result-import-path\">three-nebula/src/zone/PointZone.js</span>",
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/index.js~particlebuffer",
+    "class/src/renderer/GPURenderer/common/ParticleBuffer/index.js~ParticleBuffer.html",
+    "<span>ParticleBuffer</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/index.js</span>",
     "class"
   ],
   [
-    "three-nebula/src/renderer/pointsrenderer.js~pointsrenderer",
-    "class/src/renderer/PointsRenderer.js~PointsRenderer.html",
-    "<span>PointsRenderer</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/PointsRenderer.js</span>",
+    "three-nebula/src/zone/pointzone.js~pointzone",
+    "class/src/zone/PointZone.js~PointZone.html",
+    "<span>PointZone</span> <span class=\"search-result-import-path\">three-nebula/src/zone/PointZone.js</span>",
     "class"
   ],
   [
@@ -1284,15 +1356,27 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
-    "three-nebula/src/renderer/types.js~renderer_type_mesh",
-    "variable/index.html#static-variable-RENDERER_TYPE_MESH",
-    "<span>RENDERER_TYPE_MESH</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/types.js</span>",
+    "three-nebula/src/renderer/types.js~renderer_type_gpu",
+    "variable/index.html#static-variable-RENDERER_TYPE_GPU",
+    "<span>RENDERER_TYPE_GPU</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/types.js</span>",
     "variable"
   ],
   [
-    "three-nebula/src/renderer/types.js~renderer_type_points",
-    "variable/index.html#static-variable-RENDERER_TYPE_POINTS",
-    "<span>RENDERER_TYPE_POINTS</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/types.js</span>",
+    "three-nebula/src/renderer/types.js~renderer_type_gpu_desktop",
+    "variable/index.html#static-variable-RENDERER_TYPE_GPU_DESKTOP",
+    "<span>RENDERER_TYPE_GPU_DESKTOP</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/types.js</span>",
+    "variable"
+  ],
+  [
+    "three-nebula/src/renderer/types.js~renderer_type_gpu_mobile",
+    "variable/index.html#static-variable-RENDERER_TYPE_GPU_MOBILE",
+    "<span>RENDERER_TYPE_GPU_MOBILE</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/types.js</span>",
+    "variable"
+  ],
+  [
+    "three-nebula/src/renderer/types.js~renderer_type_mesh",
+    "variable/index.html#static-variable-RENDERER_TYPE_MESH",
+    "<span>RENDERER_TYPE_MESH</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/types.js</span>",
     "variable"
   ],
   [
@@ -1404,6 +1488,18 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~rgba_attribute_buffer_size",
+    "variable/index.html#static-variable-RGBA_ATTRIBUTE_BUFFER_SIZE",
+    "<span>RGBA_ATTRIBUTE_BUFFER_SIZE</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
+    "variable"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~rgba_byte_size",
+    "variable/index.html#static-variable-RGBA_BYTE_SIZE",
+    "<span>RGBA_BYTE_SIZE</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
+    "variable"
+  ],
+  [
     "three-nebula/src/core/three/constants.js~rgba_pvrtc_2bppv1_format",
     "variable/index.html#static-variable-RGBA_PVRTC_2BPPV1_Format",
     "<span>RGBA_PVRTC_2BPPV1_Format</span> <span class=\"search-result-import-path\">three-nebula/src/core/three/constants.js</span>",
@@ -1431,6 +1527,12 @@ window.esdocSearchIndex = [
     "three-nebula/src/core/three/constants.js~rgba_s3tc_dxt5_format",
     "variable/index.html#static-variable-RGBA_S3TC_DXT5_Format",
     "<span>RGBA_S3TC_DXT5_Format</span> <span class=\"search-result-import-path\">three-nebula/src/core/three/constants.js</span>",
+    "variable"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~rgba_size",
+    "variable/index.html#static-variable-RGBA_SIZE",
+    "<span>RGBA_SIZE</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
     "variable"
   ],
   [
@@ -1506,6 +1608,18 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~rotation_attribute_buffer_size",
+    "variable/index.html#static-variable-ROTATION_ATTRIBUTE_BUFFER_SIZE",
+    "<span>ROTATION_ATTRIBUTE_BUFFER_SIZE</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
+    "variable"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~rotation_byte_size",
+    "variable/index.html#static-variable-ROTATION_BYTE_SIZE",
+    "<span>ROTATION_BYTE_SIZE</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
+    "variable"
+  ],
+  [
     "three-nebula/src/initializer/velocity/radialvelocity.js~radialvelocity",
     "class/src/initializer/Velocity/RadialVelocity.js~RadialVelocity.html",
     "<span>RadialVelocity</span> <span class=\"search-result-import-path\">three-nebula/src/initializer/Velocity/RadialVelocity.js</span>",
@@ -1566,6 +1680,30 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
+    "three-nebula/src/initializer/rotation.js~rotation",
+    "class/src/initializer/Rotation.js~Rotation.html",
+    "<span>Rotation</span> <span class=\"search-result-import-path\">three-nebula/src/initializer/Rotation.js</span>",
+    "class"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/common/shaders/constants.js~size_attenuation_factor",
+    "variable/index.html#static-variable-SIZE_ATTENUATION_FACTOR",
+    "<span>SIZE_ATTENUATION_FACTOR</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/shaders/constants.js</span>",
+    "variable"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~size_attribute_buffer_size",
+    "variable/index.html#static-variable-SIZE_ATTRIBUTE_BUFFER_SIZE",
+    "<span>SIZE_ATTRIBUTE_BUFFER_SIZE</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
+    "variable"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~size_byte_size",
+    "variable/index.html#static-variable-SIZE_BYTE_SIZE",
+    "<span>SIZE_BYTE_SIZE</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
+    "variable"
+  ],
+  [
     "three-nebula/src/core/constants.js~supported_json_behaviour_types",
     "variable/index.html#static-variable-SUPPORTED_JSON_BEHAVIOUR_TYPES",
     "<span>SUPPORTED_JSON_BEHAVIOUR_TYPES</span> <span class=\"search-result-import-path\">three-nebula/src/core/constants.js</span>",
@@ -1596,21 +1734,9 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
-    "three-nebula/src/constants/index.js~system_update",
-    "variable/index.html#static-variable-SYSTEM_UPDATE",
-    "<span>SYSTEM_UPDATE</span> <span class=\"search-result-import-path\">three-nebula/src/constants/index.js</span>",
-    "variable"
-  ],
-  [
     "three-nebula/src/events/constants.js~system_update",
     "variable/index.html#static-variable-SYSTEM_UPDATE",
     "<span>SYSTEM_UPDATE</span> <span class=\"search-result-import-path\">three-nebula/src/events/constants.js</span>",
-    "variable"
-  ],
-  [
-    "three-nebula/src/constants/index.js~system_update_after",
-    "variable/index.html#static-variable-SYSTEM_UPDATE_AFTER",
-    "<span>SYSTEM_UPDATE_AFTER</span> <span class=\"search-result-import-path\">three-nebula/src/constants/index.js</span>",
     "variable"
   ],
   [
@@ -1710,6 +1836,12 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~texid_attribute_buffer_size",
+    "variable/index.html#static-variable-TEXID_ATTRIBUTE_BUFFER_SIZE",
+    "<span>TEXID_ATTRIBUTE_BUFFER_SIZE</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
+    "variable"
+  ],
+  [
     "three-nebula/src/constants/index.js~time_step",
     "variable/index.html#static-variable-TIME_STEP",
     "<span>TIME_STEP</span> <span class=\"search-result-import-path\">three-nebula/src/constants/index.js</span>",
@@ -1722,9 +1854,21 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
+    "three-nebula/src/renderer/gpurenderer/common/stores/target.js~target",
+    "class/src/renderer/GPURenderer/common/stores/Target.js~Target.html",
+    "<span>Target</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/stores/Target.js</span>",
+    "class"
+  ],
+  [
     "three-nebula/src/initializer/texture.js~texture",
     "class/src/initializer/Texture.js~Texture.html",
     "<span>Texture</span> <span class=\"search-result-import-path\">three-nebula/src/initializer/Texture.js</span>",
+    "class"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/common/textureatlas/index.js~textureatlas",
+    "class/src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas.html",
+    "<span>TextureAtlas</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/TextureAtlas/index.js</span>",
     "class"
   ],
   [
@@ -1756,6 +1900,12 @@ window.esdocSearchIndex = [
     "variable/index.html#static-variable-Uncharted2ToneMapping",
     "<span>Uncharted2ToneMapping</span> <span class=\"search-result-import-path\">three-nebula/src/core/three/constants.js</span>",
     "variable"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/common/stores/uniquelist.js~uniquelist",
+    "class/src/renderer/GPURenderer/common/stores/UniqueList.js~UniqueList.html",
+    "<span>UniqueList</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/stores/UniqueList.js</span>",
+    "class"
   ],
   [
     "three-nebula/src/core/three/constants.js~unsignedbytetype",
@@ -1797,6 +1947,12 @@ window.esdocSearchIndex = [
     "three-nebula/src/core/three/constants.js~unsignedshorttype",
     "variable/index.html#static-variable-UnsignedShortType",
     "<span>UnsignedShortType</span> <span class=\"search-result-import-path\">three-nebula/src/core/three/constants.js</span>",
+    "variable"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/common/particlebuffer/constants.js~vector_3_size",
+    "variable/index.html#static-variable-VECTOR_3_SIZE",
+    "<span>VECTOR_3_SIZE</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/common/ParticleBuffer/constants.js</span>",
     "variable"
   ],
   [
@@ -1914,6 +2070,12 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
+    "three-nebula/src/constants/index.js~__dev__",
+    "function/index.html#static-function-__DEV__",
+    "<span>__DEV__</span> <span class=\"search-result-import-path\">three-nebula/src/constants/index.js</span>",
+    "function"
+  ],
+  [
     "three-nebula/src/math/arrayspan.js~createarrayspan",
     "function/index.html#static-function-createArraySpan",
     "<span>createArraySpan</span> <span class=\"search-result-import-path\">three-nebula/src/math/ArraySpan.js</span>",
@@ -1942,6 +2104,18 @@ window.esdocSearchIndex = [
     "variable/index.html#static-variable-easeLinear",
     "<span>easeLinear</span> <span class=\"search-result-import-path\">three-nebula/src/ease/index.js</span>",
     "variable"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/desktop/shaders/fragmentshader.js~fragmentshader",
+    "function/index.html#static-function-fragmentShader",
+    "<span>fragmentShader</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/Desktop/shaders/fragmentShader.js</span>",
+    "function"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/mobile/shaders/fragmentshader.js~fragmentshader",
+    "function/index.html#static-function-fragmentShader",
+    "<span>fragmentShader</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/Mobile/shaders/fragmentShader.js</span>",
+    "function"
   ],
   [
     "three-nebula/src/core/fromjson.js~fromjson",
@@ -1983,6 +2157,18 @@ window.esdocSearchIndex = [
     "three-nebula/src/ease/index.js~seteasingbyname",
     "function/index.html#static-function-setEasingByName",
     "<span>setEasingByName</span> <span class=\"search-result-import-path\">three-nebula/src/ease/index.js</span>",
+    "function"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/desktop/shaders/vertexshader.js~vertexshader",
+    "function/index.html#static-function-vertexShader",
+    "<span>vertexShader</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/Desktop/shaders/vertexShader.js</span>",
+    "function"
+  ],
+  [
+    "three-nebula/src/renderer/gpurenderer/mobile/shaders/vertexshader.js~vertexshader",
+    "function/index.html#static-function-vertexShader",
+    "<span>vertexShader</span> <span class=\"search-result-import-path\">three-nebula/src/renderer/GPURenderer/Mobile/shaders/vertexShader.js</span>",
     "function"
   ],
   [
@@ -3132,6 +3318,12 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/core/particle.js~particle#distancetocamera",
+    "class/src/core/Particle.js~Particle.html#instance-member-distanceToCamera",
+    "src/core/Particle.js~Particle#distanceToCamera",
+    "member"
+  ],
+  [
     "src/core/particle.js~particle#easing",
     "class/src/core/Particle.js~Particle.html#instance-member-easing",
     "src/core/Particle.js~Particle#easing",
@@ -3390,6 +3582,12 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/core/system.js~system#emit",
+    "class/src/core/System.js~System.html#instance-method-emit",
+    "src/core/System.js~System#emit",
+    "method"
+  ],
+  [
     "src/core/system.js~system#emitters",
     "class/src/core/System.js~System.html#instance-member-emitters",
     "src/core/System.js~System#emitters",
@@ -3612,6 +3810,12 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/emitter/emitter.js~emitter#addonemitterdeadeventlistener",
+    "class/src/emitter/Emitter.js~Emitter.html#instance-method-addOnEmitterDeadEventListener",
+    "src/emitter/Emitter.js~Emitter#addOnEmitterDeadEventListener",
+    "method"
+  ],
+  [
     "src/emitter/emitter.js~emitter#age",
     "class/src/emitter/Emitter.js~Emitter.html#instance-member-age",
     "src/emitter/Emitter.js~Emitter#age",
@@ -3708,6 +3912,12 @@ window.esdocSearchIndex = [
     "member"
   ],
   [
+    "src/emitter/emitter.js~emitter#experimental_emit",
+    "class/src/emitter/Emitter.js~Emitter.html#instance-method-experimental_emit",
+    "src/emitter/Emitter.js~Emitter#experimental_emit",
+    "method"
+  ],
+  [
     "src/emitter/emitter.js~emitter#generate",
     "class/src/emitter/Emitter.js~Emitter.html#instance-method-generate",
     "src/emitter/Emitter.js~Emitter#generate",
@@ -3717,6 +3927,12 @@ window.esdocSearchIndex = [
     "src/emitter/emitter.js~emitter#id",
     "class/src/emitter/Emitter.js~Emitter.html#instance-member-id",
     "src/emitter/Emitter.js~Emitter#id",
+    "member"
+  ],
+  [
+    "src/emitter/emitter.js~emitter#index",
+    "class/src/emitter/Emitter.js~Emitter.html#instance-member-index",
+    "src/emitter/Emitter.js~Emitter#index",
     "member"
   ],
   [
@@ -3730,6 +3946,12 @@ window.esdocSearchIndex = [
     "class/src/emitter/Emitter.js~Emitter.html#instance-method-integrate",
     "src/emitter/Emitter.js~Emitter#integrate",
     "method"
+  ],
+  [
+    "src/emitter/emitter.js~emitter#isemitting",
+    "class/src/emitter/Emitter.js~Emitter.html#instance-member-isEmitting",
+    "src/emitter/Emitter.js~Emitter#isEmitting",
+    "member"
   ],
   [
     "src/emitter/emitter.js~emitter#life",
@@ -3822,6 +4044,12 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/emitter/emitter.js~emitter#setlife",
+    "class/src/emitter/Emitter.js~Emitter.html#instance-method-setLife",
+    "src/emitter/Emitter.js~Emitter#setLife",
+    "method"
+  ],
+  [
     "src/emitter/emitter.js~emitter#setposition",
     "class/src/emitter/Emitter.js~Emitter.html#instance-method-setPosition",
     "src/emitter/Emitter.js~Emitter#setPosition",
@@ -3837,6 +4065,12 @@ window.esdocSearchIndex = [
     "src/emitter/emitter.js~emitter#setrotation",
     "class/src/emitter/Emitter.js~Emitter.html#instance-method-setRotation",
     "src/emitter/Emitter.js~Emitter#setRotation",
+    "method"
+  ],
+  [
+    "src/emitter/emitter.js~emitter#settotalemittimes",
+    "class/src/emitter/Emitter.js~Emitter.html#instance-method-setTotalEmitTimes",
+    "src/emitter/Emitter.js~Emitter#setTotalEmitTimes",
     "method"
   ],
   [
@@ -4389,6 +4623,42 @@ window.esdocSearchIndex = [
     "src/initializer/rate.js~rate.fromjson",
     "class/src/initializer/Rate.js~Rate.html#static-method-fromJSON",
     "src/initializer/Rate.js~Rate.fromJSON",
+    "method"
+  ],
+  [
+    "src/initializer/rotation.js",
+    "file/src/initializer/Rotation.js.html",
+    "src/initializer/Rotation.js",
+    "file"
+  ],
+  [
+    "src/initializer/rotation.js~rotation#constructor",
+    "class/src/initializer/Rotation.js~Rotation.html#instance-constructor-constructor",
+    "src/initializer/Rotation.js~Rotation#constructor",
+    "method"
+  ],
+  [
+    "src/initializer/rotation.js~rotation#initialize",
+    "class/src/initializer/Rotation.js~Rotation.html#instance-method-initialize",
+    "src/initializer/Rotation.js~Rotation#initialize",
+    "method"
+  ],
+  [
+    "src/initializer/rotation.js~rotation#rotation",
+    "class/src/initializer/Rotation.js~Rotation.html#instance-member-rotation",
+    "src/initializer/Rotation.js~Rotation#rotation",
+    "member"
+  ],
+  [
+    "src/initializer/rotation.js~rotation#useemitterrotation",
+    "class/src/initializer/Rotation.js~Rotation.html#instance-member-useEmitterRotation",
+    "src/initializer/Rotation.js~Rotation#useEmitterRotation",
+    "member"
+  ],
+  [
+    "src/initializer/rotation.js~rotation.fromjson",
+    "class/src/initializer/Rotation.js~Rotation.html#static-method-fromJSON",
+    "src/initializer/Rotation.js~Rotation.fromJSON",
     "method"
   ],
   [
@@ -5010,6 +5280,12 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/renderer/baserenderer.js~baserenderer#logrenderertype",
+    "class/src/renderer/BaseRenderer.js~BaseRenderer.html#instance-method-logRendererType",
+    "src/renderer/BaseRenderer.js~BaseRenderer#logRendererType",
+    "method"
+  ],
+  [
     "src/renderer/baserenderer.js~baserenderer#onparticlecreated",
     "class/src/renderer/BaseRenderer.js~BaseRenderer.html#instance-method-onParticleCreated",
     "src/renderer/BaseRenderer.js~BaseRenderer#onParticleCreated",
@@ -5100,6 +5376,678 @@ window.esdocSearchIndex = [
     "member"
   ],
   [
+    "src/renderer/gpurenderer/desktop/index.js",
+    "file/src/renderer/GPURenderer/Desktop/index.js.html",
+    "src/renderer/GPURenderer/Desktop/index.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#buffer",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-member-buffer",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#buffer",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#camera",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-member-camera",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#camera",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#constructor",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-constructor-constructor",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#constructor",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#container",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-member-container",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#container",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#destroy",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-method-destroy",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#destroy",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#geometry",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-member-geometry",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#geometry",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#gettextureid",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-method-getTextureID",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#getTextureID",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#mapparticletargetpropstopoint",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-method-mapParticleTargetPropsToPoint",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#mapParticleTargetPropsToPoint",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#material",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-member-material",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#material",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#onparticlecreated",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-method-onParticleCreated",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#onParticleCreated",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#onparticledead",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-method-onParticleDead",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#onParticleDead",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#onparticleupdate",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-method-onParticleUpdate",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#onParticleUpdate",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#onsystemupdate",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-method-onSystemUpdate",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#onSystemUpdate",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#particlebuffer",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-member-particleBuffer",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#particleBuffer",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#points",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-member-points",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#points",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#shoulddebugtextureatlas",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-member-shouldDebugTextureAtlas",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#shouldDebugTextureAtlas",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#stride",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-member-stride",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#stride",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#targetpool",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-member-targetPool",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#targetPool",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#textureatlas",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-member-textureAtlas",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#textureAtlas",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#uniquelist",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-member-uniqueList",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#uniqueList",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#updatepointalpha",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-method-updatePointAlpha",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#updatePointAlpha",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#updatepointcolor",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-method-updatePointColor",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#updatePointColor",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#updatepointposition",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-method-updatePointPosition",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#updatePointPosition",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#updatepointrotation",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-method-updatePointRotation",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#updatePointRotation",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#updatepointsize",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-method-updatePointSize",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#updatePointSize",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#updatepointtextureindex",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-method-updatePointTextureIndex",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#updatePointTextureIndex",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/index.js~desktopgpurenderer#updatetarget",
+    "class/src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer.html#instance-method-updateTarget",
+    "src/renderer/GPURenderer/Desktop/index.js~DesktopGPURenderer#updateTarget",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/shaders/fragmentshader.js",
+    "file/src/renderer/GPURenderer/Desktop/shaders/fragmentShader.js.html",
+    "src/renderer/GPURenderer/Desktop/shaders/fragmentShader.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/shaders/index.js",
+    "file/src/renderer/GPURenderer/Desktop/shaders/index.js.html",
+    "src/renderer/GPURenderer/Desktop/shaders/index.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/desktop/shaders/vertexshader.js",
+    "file/src/renderer/GPURenderer/Desktop/shaders/vertexShader.js.html",
+    "src/renderer/GPURenderer/Desktop/shaders/vertexShader.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js",
+    "file/src/renderer/GPURenderer/Mobile/index.js.html",
+    "src/renderer/GPURenderer/Mobile/index.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#buffer",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-member-buffer",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#buffer",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#camera",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-member-camera",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#camera",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#constructor",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-constructor-constructor",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#constructor",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#destroy",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-method-destroy",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#destroy",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#geometry",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-member-geometry",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#geometry",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#gettextureid",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-method-getTextureID",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#getTextureID",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#mapparticletargetpropstopoint",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-method-mapParticleTargetPropsToPoint",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#mapParticleTargetPropsToPoint",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#material",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-member-material",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#material",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#onparticlecreated",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-method-onParticleCreated",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#onParticleCreated",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#onparticledead",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-method-onParticleDead",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#onParticleDead",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#onparticleupdate",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-method-onParticleUpdate",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#onParticleUpdate",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#onsystemupdate",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-method-onSystemUpdate",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#onSystemUpdate",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#particlebuffer",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-member-particleBuffer",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#particleBuffer",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#points",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-member-points",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#points",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#shoulddebugtextureatlas",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-member-shouldDebugTextureAtlas",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#shouldDebugTextureAtlas",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#stride",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-member-stride",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#stride",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#targetpool",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-member-targetPool",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#targetPool",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#textureatlas",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-member-textureAtlas",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#textureAtlas",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#uniquelist",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-member-uniqueList",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#uniqueList",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#updatepointalpha",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-method-updatePointAlpha",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#updatePointAlpha",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#updatepointcolor",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-method-updatePointColor",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#updatePointColor",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#updatepointposition",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-method-updatePointPosition",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#updatePointPosition",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#updatepointrotation",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-method-updatePointRotation",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#updatePointRotation",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#updatepointsize",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-method-updatePointSize",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#updatePointSize",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#updatepointtextureindex",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-method-updatePointTextureIndex",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#updatePointTextureIndex",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/index.js~mobilegpurenderer#updatetarget",
+    "class/src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer.html#instance-method-updateTarget",
+    "src/renderer/GPURenderer/Mobile/index.js~MobileGPURenderer#updateTarget",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/shaders/fragmentshader.js",
+    "file/src/renderer/GPURenderer/Mobile/shaders/fragmentShader.js.html",
+    "src/renderer/GPURenderer/Mobile/shaders/fragmentShader.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/shaders/index.js",
+    "file/src/renderer/GPURenderer/Mobile/shaders/index.js.html",
+    "src/renderer/GPURenderer/Mobile/shaders/index.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/mobile/shaders/vertexshader.js",
+    "file/src/renderer/GPURenderer/Mobile/shaders/vertexShader.js.html",
+    "src/renderer/GPURenderer/Mobile/shaders/vertexShader.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/common/particlebuffer/constants.js",
+    "file/src/renderer/GPURenderer/common/ParticleBuffer/constants.js.html",
+    "src/renderer/GPURenderer/common/ParticleBuffer/constants.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/common/particlebuffer/index.js",
+    "file/src/renderer/GPURenderer/common/ParticleBuffer/index.js.html",
+    "src/renderer/GPURenderer/common/ParticleBuffer/index.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/common/particlebuffer/index.js~particlebuffer#buffer",
+    "class/src/renderer/GPURenderer/common/ParticleBuffer/index.js~ParticleBuffer.html#instance-get-buffer",
+    "src/renderer/GPURenderer/common/ParticleBuffer/index.js~ParticleBuffer#buffer",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/particlebuffer/index.js~particlebuffer#constructor",
+    "class/src/renderer/GPURenderer/common/ParticleBuffer/index.js~ParticleBuffer.html#instance-constructor-constructor",
+    "src/renderer/GPURenderer/common/ParticleBuffer/index.js~ParticleBuffer#constructor",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/common/particlebuffer/index.js~particlebuffer#createbuffergeometry",
+    "class/src/renderer/GPURenderer/common/ParticleBuffer/index.js~ParticleBuffer.html#instance-method-createBufferGeometry",
+    "src/renderer/GPURenderer/common/ParticleBuffer/index.js~ParticleBuffer#createBufferGeometry",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/common/particlebuffer/index.js~particlebuffer#createinterleavedbuffer",
+    "class/src/renderer/GPURenderer/common/ParticleBuffer/index.js~ParticleBuffer.html#instance-method-createInterleavedBuffer",
+    "src/renderer/GPURenderer/common/ParticleBuffer/index.js~ParticleBuffer#createInterleavedBuffer",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/common/particlebuffer/index.js~particlebuffer#geometry",
+    "class/src/renderer/GPURenderer/common/ParticleBuffer/index.js~ParticleBuffer.html#instance-member-geometry",
+    "src/renderer/GPURenderer/common/ParticleBuffer/index.js~ParticleBuffer#geometry",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/particlebuffer/index.js~particlebuffer#interleavedbuffer",
+    "class/src/renderer/GPURenderer/common/ParticleBuffer/index.js~ParticleBuffer.html#instance-member-interleavedBuffer",
+    "src/renderer/GPURenderer/common/ParticleBuffer/index.js~ParticleBuffer#interleavedBuffer",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/particlebuffer/index.js~particlebuffer#maxparticles",
+    "class/src/renderer/GPURenderer/common/ParticleBuffer/index.js~ParticleBuffer.html#instance-member-maxParticles",
+    "src/renderer/GPURenderer/common/ParticleBuffer/index.js~ParticleBuffer#maxParticles",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/particlebuffer/index.js~particlebuffer#stride",
+    "class/src/renderer/GPURenderer/common/ParticleBuffer/index.js~ParticleBuffer.html#instance-get-stride",
+    "src/renderer/GPURenderer/common/ParticleBuffer/index.js~ParticleBuffer#stride",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/textureatlas/constants.js",
+    "file/src/renderer/GPURenderer/common/TextureAtlas/constants.js.html",
+    "src/renderer/GPURenderer/common/TextureAtlas/constants.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/common/textureatlas/index.js",
+    "file/src/renderer/GPURenderer/common/TextureAtlas/index.js.html",
+    "src/renderer/GPURenderer/common/TextureAtlas/index.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/common/textureatlas/index.js~textureatlas#addtexture",
+    "class/src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas.html#instance-method-addTexture",
+    "src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas#addTexture",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/common/textureatlas/index.js~textureatlas#atlasindex",
+    "class/src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas.html#instance-member-atlasIndex",
+    "src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas#atlasIndex",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/textureatlas/index.js~textureatlas#atlastexture",
+    "class/src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas.html#instance-member-atlasTexture",
+    "src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas#atlasTexture",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/textureatlas/index.js~textureatlas#canvas",
+    "class/src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas.html#instance-member-canvas",
+    "src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas#canvas",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/textureatlas/index.js~textureatlas#constructor",
+    "class/src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas.html#instance-constructor-constructor",
+    "src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas#constructor",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/common/textureatlas/index.js~textureatlas#debug",
+    "class/src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas.html#instance-method-debug",
+    "src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas#debug",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/common/textureatlas/index.js~textureatlas#destroy",
+    "class/src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas.html#instance-method-destroy",
+    "src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas#destroy",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/common/textureatlas/index.js~textureatlas#entries",
+    "class/src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas.html#instance-member-entries",
+    "src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas#entries",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/textureatlas/index.js~textureatlas#indexdata",
+    "class/src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas.html#instance-member-indexData",
+    "src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas#indexData",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/textureatlas/index.js~textureatlas#log",
+    "class/src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas.html#instance-method-log",
+    "src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas#log",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/common/textureatlas/index.js~textureatlas#needsupdate",
+    "class/src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas.html#instance-member-needsUpdate",
+    "src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas#needsUpdate",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/textureatlas/index.js~textureatlas#renderertype",
+    "class/src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas.html#instance-member-rendererType",
+    "src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas#rendererType",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/textureatlas/index.js~textureatlas#shoulddebug",
+    "class/src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas.html#instance-member-shouldDebug",
+    "src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas#shouldDebug",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/textureatlas/index.js~textureatlas#update",
+    "class/src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas.html#instance-method-update",
+    "src/renderer/GPURenderer/common/TextureAtlas/index.js~TextureAtlas#update",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/common/constants.js",
+    "file/src/renderer/GPURenderer/common/constants.js.html",
+    "src/renderer/GPURenderer/common/constants.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/common/index.js",
+    "file/src/renderer/GPURenderer/common/index.js.html",
+    "src/renderer/GPURenderer/common/index.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/common/shaders/constants.js",
+    "file/src/renderer/GPURenderer/common/shaders/constants.js.html",
+    "src/renderer/GPURenderer/common/shaders/constants.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/target.js",
+    "file/src/renderer/GPURenderer/common/stores/Target.js.html",
+    "src/renderer/GPURenderer/common/stores/Target.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/target.js~target#alpha",
+    "class/src/renderer/GPURenderer/common/stores/Target.js~Target.html#instance-member-alpha",
+    "src/renderer/GPURenderer/common/stores/Target.js~Target#alpha",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/target.js~target#color",
+    "class/src/renderer/GPURenderer/common/stores/Target.js~Target.html#instance-member-color",
+    "src/renderer/GPURenderer/common/stores/Target.js~Target#color",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/target.js~target#constructor",
+    "class/src/renderer/GPURenderer/common/stores/Target.js~Target.html#instance-constructor-constructor",
+    "src/renderer/GPURenderer/common/stores/Target.js~Target#constructor",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/target.js~target#index",
+    "class/src/renderer/GPURenderer/common/stores/Target.js~Target.html#instance-member-index",
+    "src/renderer/GPURenderer/common/stores/Target.js~Target#index",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/target.js~target#position",
+    "class/src/renderer/GPURenderer/common/stores/Target.js~Target.html#instance-member-position",
+    "src/renderer/GPURenderer/common/stores/Target.js~Target#position",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/target.js~target#reset",
+    "class/src/renderer/GPURenderer/common/stores/Target.js~Target.html#instance-method-reset",
+    "src/renderer/GPURenderer/common/stores/Target.js~Target#reset",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/target.js~target#rotation",
+    "class/src/renderer/GPURenderer/common/stores/Target.js~Target.html#instance-member-rotation",
+    "src/renderer/GPURenderer/common/stores/Target.js~Target#rotation",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/target.js~target#size",
+    "class/src/renderer/GPURenderer/common/stores/Target.js~Target.html#instance-member-size",
+    "src/renderer/GPURenderer/common/stores/Target.js~Target#size",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/target.js~target#texture",
+    "class/src/renderer/GPURenderer/common/stores/Target.js~Target.html#instance-member-texture",
+    "src/renderer/GPURenderer/common/stores/Target.js~Target#texture",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/uniquelist.js",
+    "file/src/renderer/GPURenderer/common/stores/UniqueList.js.html",
+    "src/renderer/GPURenderer/common/stores/UniqueList.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/uniquelist.js~uniquelist#_items",
+    "class/src/renderer/GPURenderer/common/stores/UniqueList.js~UniqueList.html#instance-member-_items",
+    "src/renderer/GPURenderer/common/stores/UniqueList.js~UniqueList#_items",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/uniquelist.js~uniquelist#add",
+    "class/src/renderer/GPURenderer/common/stores/UniqueList.js~UniqueList.html#instance-method-add",
+    "src/renderer/GPURenderer/common/stores/UniqueList.js~UniqueList#add",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/uniquelist.js~uniquelist#constructor",
+    "class/src/renderer/GPURenderer/common/stores/UniqueList.js~UniqueList.html#instance-constructor-constructor",
+    "src/renderer/GPURenderer/common/stores/UniqueList.js~UniqueList#constructor",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/uniquelist.js~uniquelist#count",
+    "class/src/renderer/GPURenderer/common/stores/UniqueList.js~UniqueList.html#instance-member-count",
+    "src/renderer/GPURenderer/common/stores/UniqueList.js~UniqueList#count",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/uniquelist.js~uniquelist#destroy",
+    "class/src/renderer/GPURenderer/common/stores/UniqueList.js~UniqueList.html#instance-method-destroy",
+    "src/renderer/GPURenderer/common/stores/UniqueList.js~UniqueList#destroy",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/uniquelist.js~uniquelist#find",
+    "class/src/renderer/GPURenderer/common/stores/UniqueList.js~UniqueList.html#instance-method-find",
+    "src/renderer/GPURenderer/common/stores/UniqueList.js~UniqueList#find",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/uniquelist.js~uniquelist#max",
+    "class/src/renderer/GPURenderer/common/stores/UniqueList.js~UniqueList.html#instance-member-max",
+    "src/renderer/GPURenderer/common/stores/UniqueList.js~UniqueList#max",
+    "member"
+  ],
+  [
+    "src/renderer/gpurenderer/common/stores/index.js",
+    "file/src/renderer/GPURenderer/common/stores/index.js.html",
+    "src/renderer/GPURenderer/common/stores/index.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/index.js",
+    "file/src/renderer/GPURenderer/index.js.html",
+    "src/renderer/GPURenderer/index.js",
+    "file"
+  ],
+  [
+    "src/renderer/gpurenderer/index.js~gpurenderer#constructor",
+    "class/src/renderer/GPURenderer/index.js~GPURenderer.html#instance-constructor-constructor",
+    "src/renderer/GPURenderer/index.js~GPURenderer#constructor",
+    "method"
+  ],
+  [
+    "src/renderer/gpurenderer/index.js~gpurenderer#isfloatingpointtexturesupported",
+    "class/src/renderer/GPURenderer/index.js~GPURenderer.html#instance-method-isFloatingPointTextureSupported",
+    "src/renderer/GPURenderer/index.js~GPURenderer#isFloatingPointTextureSupported",
+    "method"
+  ],
+  [
     "src/renderer/meshrenderer.js",
     "file/src/renderer/MeshRenderer.js.html",
     "src/renderer/MeshRenderer.js",
@@ -5136,6 +6084,12 @@ window.esdocSearchIndex = [
     "member"
   ],
   [
+    "src/renderer/meshrenderer.js~meshrenderer#isthreesprite",
+    "class/src/renderer/MeshRenderer.js~MeshRenderer.html#instance-method-isThreeSprite",
+    "src/renderer/MeshRenderer.js~MeshRenderer#isThreeSprite",
+    "method"
+  ],
+  [
     "src/renderer/meshrenderer.js~meshrenderer#onparticlecreated",
     "class/src/renderer/MeshRenderer.js~MeshRenderer.html#instance-method-onParticleCreated",
     "src/renderer/MeshRenderer.js~MeshRenderer#onParticleCreated",
@@ -5160,52 +6114,16 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/renderer/meshrenderer.js~meshrenderer#rotate",
+    "class/src/renderer/MeshRenderer.js~MeshRenderer.html#instance-method-rotate",
+    "src/renderer/MeshRenderer.js~MeshRenderer#rotate",
+    "method"
+  ],
+  [
     "src/renderer/meshrenderer.js~meshrenderer#scale",
     "class/src/renderer/MeshRenderer.js~MeshRenderer.html#instance-method-scale",
     "src/renderer/MeshRenderer.js~MeshRenderer#scale",
     "method"
-  ],
-  [
-    "src/renderer/pointsrenderer.js",
-    "file/src/renderer/PointsRenderer.js.html",
-    "src/renderer/PointsRenderer.js",
-    "file"
-  ],
-  [
-    "src/renderer/pointsrenderer.js~pointsrenderer#constructor",
-    "class/src/renderer/PointsRenderer.js~PointsRenderer.html#instance-constructor-constructor",
-    "src/renderer/PointsRenderer.js~PointsRenderer#constructor",
-    "method"
-  ],
-  [
-    "src/renderer/pointsrenderer.js~pointsrenderer#onparticlecreated",
-    "class/src/renderer/PointsRenderer.js~PointsRenderer.html#instance-method-onParticleCreated",
-    "src/renderer/PointsRenderer.js~PointsRenderer#onParticleCreated",
-    "method"
-  ],
-  [
-    "src/renderer/pointsrenderer.js~pointsrenderer#onparticledead",
-    "class/src/renderer/PointsRenderer.js~PointsRenderer.html#instance-method-onParticleDead",
-    "src/renderer/PointsRenderer.js~PointsRenderer#onParticleDead",
-    "method"
-  ],
-  [
-    "src/renderer/pointsrenderer.js~pointsrenderer#onparticleupdate",
-    "class/src/renderer/PointsRenderer.js~PointsRenderer.html#instance-method-onParticleUpdate",
-    "src/renderer/PointsRenderer.js~PointsRenderer#onParticleUpdate",
-    "method"
-  ],
-  [
-    "src/renderer/pointsrenderer.js~pointsrenderer#onsystemupdate",
-    "class/src/renderer/PointsRenderer.js~PointsRenderer.html#instance-method-onSystemUpdate",
-    "src/renderer/PointsRenderer.js~PointsRenderer#onSystemUpdate",
-    "method"
-  ],
-  [
-    "src/renderer/pointsrenderer.js~pointsrenderer#points",
-    "class/src/renderer/PointsRenderer.js~PointsRenderer.html#instance-member-points",
-    "src/renderer/PointsRenderer.js~PointsRenderer#points",
-    "member"
   ],
   [
     "src/renderer/spriterenderer.js",
@@ -5223,6 +6141,12 @@ window.esdocSearchIndex = [
     "src/renderer/spriterenderer.js~spriterenderer#constructor",
     "class/src/renderer/SpriteRenderer.js~SpriteRenderer.html#instance-constructor-constructor",
     "src/renderer/SpriteRenderer.js~SpriteRenderer#constructor",
+    "method"
+  ],
+  [
+    "src/renderer/spriterenderer.js~spriterenderer#rotate",
+    "class/src/renderer/SpriteRenderer.js~SpriteRenderer.html#instance-method-rotate",
+    "src/renderer/SpriteRenderer.js~SpriteRenderer#rotate",
     "method"
   ],
   [

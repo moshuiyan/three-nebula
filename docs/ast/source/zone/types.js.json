@@ -1,7 +1,7 @@
 {
   "type": "File",
   "start": 0,
-  "end": 302,
+  "end": 309,
   "loc": {
     "start": {
       "line": 1,
@@ -15,7 +15,7 @@
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 302,
+    "end": 309,
     "loc": {
       "start": {
         "line": 1,
@@ -119,8 +119,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 42,
-        "end": 81,
+        "start": 43,
+        "end": 82,
         "loc": {
           "start": {
             "line": 2,
@@ -135,8 +135,8 @@
         "source": null,
         "declaration": {
           "type": "VariableDeclaration",
-          "start": 49,
-          "end": 81,
+          "start": 50,
+          "end": 82,
           "loc": {
             "start": {
               "line": 2,
@@ -150,8 +150,8 @@
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 55,
-              "end": 80,
+              "start": 56,
+              "end": 81,
               "loc": {
                 "start": {
                   "line": 2,
@@ -164,8 +164,8 @@
               },
               "id": {
                 "type": "Identifier",
-                "start": 55,
-                "end": 68,
+                "start": 56,
+                "end": 69,
                 "loc": {
                   "start": {
                     "line": 2,
@@ -181,8 +181,8 @@
               },
               "init": {
                 "type": "StringLiteral",
-                "start": 71,
-                "end": 80,
+                "start": 72,
+                "end": 81,
                 "loc": {
                   "start": {
                     "line": 2,
@@ -208,8 +208,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 82,
-        "end": 123,
+        "start": 84,
+        "end": 125,
         "loc": {
           "start": {
             "line": 3,
@@ -224,8 +224,8 @@
         "source": null,
         "declaration": {
           "type": "VariableDeclaration",
-          "start": 89,
-          "end": 123,
+          "start": 91,
+          "end": 125,
           "loc": {
             "start": {
               "line": 3,
@@ -239,8 +239,8 @@
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 95,
-              "end": 122,
+              "start": 97,
+              "end": 124,
               "loc": {
                 "start": {
                   "line": 3,
@@ -253,8 +253,8 @@
               },
               "id": {
                 "type": "Identifier",
-                "start": 95,
-                "end": 109,
+                "start": 97,
+                "end": 111,
                 "loc": {
                   "start": {
                     "line": 3,
@@ -270,8 +270,8 @@
               },
               "init": {
                 "type": "StringLiteral",
-                "start": 112,
-                "end": 122,
+                "start": 114,
+                "end": 124,
                 "loc": {
                   "start": {
                     "line": 3,
@@ -297,8 +297,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 124,
-        "end": 165,
+        "start": 127,
+        "end": 168,
         "loc": {
           "start": {
             "line": 4,
@@ -313,8 +313,8 @@
         "source": null,
         "declaration": {
           "type": "VariableDeclaration",
-          "start": 131,
-          "end": 165,
+          "start": 134,
+          "end": 168,
           "loc": {
             "start": {
               "line": 4,
@@ -328,8 +328,8 @@
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 137,
-              "end": 164,
+              "start": 140,
+              "end": 167,
               "loc": {
                 "start": {
                   "line": 4,
@@ -342,8 +342,8 @@
               },
               "id": {
                 "type": "Identifier",
-                "start": 137,
-                "end": 151,
+                "start": 140,
+                "end": 154,
                 "loc": {
                   "start": {
                     "line": 4,
@@ -359,8 +359,8 @@
               },
               "init": {
                 "type": "StringLiteral",
-                "start": 154,
-                "end": 164,
+                "start": 157,
+                "end": 167,
                 "loc": {
                   "start": {
                     "line": 4,
@@ -386,8 +386,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 166,
-        "end": 209,
+        "start": 170,
+        "end": 213,
         "loc": {
           "start": {
             "line": 5,
@@ -402,8 +402,8 @@
         "source": null,
         "declaration": {
           "type": "VariableDeclaration",
-          "start": 173,
-          "end": 209,
+          "start": 177,
+          "end": 213,
           "loc": {
             "start": {
               "line": 5,
@@ -417,8 +417,8 @@
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 179,
-              "end": 208,
+              "start": 183,
+              "end": 212,
               "loc": {
                 "start": {
                   "line": 5,
@@ -431,8 +431,8 @@
               },
               "id": {
                 "type": "Identifier",
-                "start": 179,
-                "end": 194,
+                "start": 183,
+                "end": 198,
                 "loc": {
                   "start": {
                     "line": 5,
@@ -448,8 +448,8 @@
               },
               "init": {
                 "type": "StringLiteral",
-                "start": 197,
-                "end": 208,
+                "start": 201,
+                "end": 212,
                 "loc": {
                   "start": {
                     "line": 5,
@@ -475,8 +475,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 210,
-        "end": 255,
+        "start": 215,
+        "end": 260,
         "loc": {
           "start": {
             "line": 6,
@@ -491,8 +491,8 @@
         "source": null,
         "declaration": {
           "type": "VariableDeclaration",
-          "start": 217,
-          "end": 255,
+          "start": 222,
+          "end": 260,
           "loc": {
             "start": {
               "line": 6,
@@ -506,8 +506,8 @@
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 223,
-              "end": 254,
+              "start": 228,
+              "end": 259,
               "loc": {
                 "start": {
                   "line": 6,
@@ -520,8 +520,8 @@
               },
               "id": {
                 "type": "Identifier",
-                "start": 223,
-                "end": 239,
+                "start": 228,
+                "end": 244,
                 "loc": {
                   "start": {
                     "line": 6,
@@ -537,8 +537,8 @@
               },
               "init": {
                 "type": "StringLiteral",
-                "start": 242,
-                "end": 254,
+                "start": 247,
+                "end": 259,
                 "loc": {
                   "start": {
                     "line": 6,
@@ -564,8 +564,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 256,
-        "end": 301,
+        "start": 262,
+        "end": 307,
         "loc": {
           "start": {
             "line": 7,
@@ -580,8 +580,8 @@
         "source": null,
         "declaration": {
           "type": "VariableDeclaration",
-          "start": 263,
-          "end": 301,
+          "start": 269,
+          "end": 307,
           "loc": {
             "start": {
               "line": 7,
@@ -595,8 +595,8 @@
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 269,
-              "end": 300,
+              "start": 275,
+              "end": 306,
               "loc": {
                 "start": {
                   "line": 7,
@@ -609,8 +609,8 @@
               },
               "id": {
                 "type": "Identifier",
-                "start": 269,
-                "end": 285,
+                "start": 275,
+                "end": 291,
                 "loc": {
                   "start": {
                     "line": 7,
@@ -626,8 +626,8 @@
               },
               "init": {
                 "type": "StringLiteral",
-                "start": 288,
-                "end": 300,
+                "start": 294,
+                "end": 306,
                 "loc": {
                   "start": {
                     "line": 7,
@@ -833,8 +833,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 42,
-      "end": 48,
+      "start": 43,
+      "end": 49,
       "loc": {
         "start": {
           "line": 2,
@@ -861,8 +861,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 49,
-      "end": 54,
+      "start": 50,
+      "end": 55,
       "loc": {
         "start": {
           "line": 2,
@@ -887,8 +887,8 @@
         "binop": null
       },
       "value": "ZONE_TYPE_BOX",
-      "start": 55,
-      "end": 68,
+      "start": 56,
+      "end": 69,
       "loc": {
         "start": {
           "line": 2,
@@ -914,8 +914,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 69,
-      "end": 70,
+      "start": 70,
+      "end": 71,
       "loc": {
         "start": {
           "line": 2,
@@ -941,8 +941,8 @@
         "updateContext": null
       },
       "value": "BoxZone",
-      "start": 71,
-      "end": 80,
+      "start": 72,
+      "end": 81,
       "loc": {
         "start": {
           "line": 2,
@@ -967,8 +967,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 80,
-      "end": 81,
+      "start": 81,
+      "end": 82,
       "loc": {
         "start": {
           "line": 2,
@@ -995,8 +995,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 82,
-      "end": 88,
+      "start": 84,
+      "end": 90,
       "loc": {
         "start": {
           "line": 3,
@@ -1023,8 +1023,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 89,
-      "end": 94,
+      "start": 91,
+      "end": 96,
       "loc": {
         "start": {
           "line": 3,
@@ -1049,8 +1049,8 @@
         "binop": null
       },
       "value": "ZONE_TYPE_LINE",
-      "start": 95,
-      "end": 109,
+      "start": 97,
+      "end": 111,
       "loc": {
         "start": {
           "line": 3,
@@ -1076,8 +1076,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 110,
-      "end": 111,
+      "start": 112,
+      "end": 113,
       "loc": {
         "start": {
           "line": 3,
@@ -1103,8 +1103,8 @@
         "updateContext": null
       },
       "value": "LineZone",
-      "start": 112,
-      "end": 122,
+      "start": 114,
+      "end": 124,
       "loc": {
         "start": {
           "line": 3,
@@ -1129,8 +1129,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 122,
-      "end": 123,
+      "start": 124,
+      "end": 125,
       "loc": {
         "start": {
           "line": 3,
@@ -1157,8 +1157,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 124,
-      "end": 130,
+      "start": 127,
+      "end": 133,
       "loc": {
         "start": {
           "line": 4,
@@ -1185,8 +1185,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 131,
-      "end": 136,
+      "start": 134,
+      "end": 139,
       "loc": {
         "start": {
           "line": 4,
@@ -1211,8 +1211,8 @@
         "binop": null
       },
       "value": "ZONE_TYPE_MESH",
-      "start": 137,
-      "end": 151,
+      "start": 140,
+      "end": 154,
       "loc": {
         "start": {
           "line": 4,
@@ -1238,8 +1238,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 152,
-      "end": 153,
+      "start": 155,
+      "end": 156,
       "loc": {
         "start": {
           "line": 4,
@@ -1265,8 +1265,8 @@
         "updateContext": null
       },
       "value": "MeshZone",
-      "start": 154,
-      "end": 164,
+      "start": 157,
+      "end": 167,
       "loc": {
         "start": {
           "line": 4,
@@ -1291,8 +1291,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 164,
-      "end": 165,
+      "start": 167,
+      "end": 168,
       "loc": {
         "start": {
           "line": 4,
@@ -1319,8 +1319,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 166,
-      "end": 172,
+      "start": 170,
+      "end": 176,
       "loc": {
         "start": {
           "line": 5,
@@ -1347,8 +1347,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 173,
-      "end": 178,
+      "start": 177,
+      "end": 182,
       "loc": {
         "start": {
           "line": 5,
@@ -1373,8 +1373,8 @@
         "binop": null
       },
       "value": "ZONE_TYPE_POINT",
-      "start": 179,
-      "end": 194,
+      "start": 183,
+      "end": 198,
       "loc": {
         "start": {
           "line": 5,
@@ -1400,8 +1400,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 195,
-      "end": 196,
+      "start": 199,
+      "end": 200,
       "loc": {
         "start": {
           "line": 5,
@@ -1427,8 +1427,8 @@
         "updateContext": null
       },
       "value": "PointZone",
-      "start": 197,
-      "end": 208,
+      "start": 201,
+      "end": 212,
       "loc": {
         "start": {
           "line": 5,
@@ -1453,8 +1453,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 208,
-      "end": 209,
+      "start": 212,
+      "end": 213,
       "loc": {
         "start": {
           "line": 5,
@@ -1481,8 +1481,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 210,
-      "end": 216,
+      "start": 215,
+      "end": 221,
       "loc": {
         "start": {
           "line": 6,
@@ -1509,8 +1509,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 217,
-      "end": 222,
+      "start": 222,
+      "end": 227,
       "loc": {
         "start": {
           "line": 6,
@@ -1535,8 +1535,8 @@
         "binop": null
       },
       "value": "ZONE_TYPE_SCREEN",
-      "start": 223,
-      "end": 239,
+      "start": 228,
+      "end": 244,
       "loc": {
         "start": {
           "line": 6,
@@ -1562,8 +1562,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 240,
-      "end": 241,
+      "start": 245,
+      "end": 246,
       "loc": {
         "start": {
           "line": 6,
@@ -1589,8 +1589,8 @@
         "updateContext": null
       },
       "value": "ScreenZone",
-      "start": 242,
-      "end": 254,
+      "start": 247,
+      "end": 259,
       "loc": {
         "start": {
           "line": 6,
@@ -1615,8 +1615,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 254,
-      "end": 255,
+      "start": 259,
+      "end": 260,
       "loc": {
         "start": {
           "line": 6,
@@ -1643,8 +1643,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 256,
-      "end": 262,
+      "start": 262,
+      "end": 268,
       "loc": {
         "start": {
           "line": 7,
@@ -1671,8 +1671,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 263,
-      "end": 268,
+      "start": 269,
+      "end": 274,
       "loc": {
         "start": {
           "line": 7,
@@ -1697,8 +1697,8 @@
         "binop": null
       },
       "value": "ZONE_TYPE_SPHERE",
-      "start": 269,
-      "end": 285,
+      "start": 275,
+      "end": 291,
       "loc": {
         "start": {
           "line": 7,
@@ -1724,8 +1724,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 286,
-      "end": 287,
+      "start": 292,
+      "end": 293,
       "loc": {
         "start": {
           "line": 7,
@@ -1751,8 +1751,8 @@
         "updateContext": null
       },
       "value": "SphereZone",
-      "start": 288,
-      "end": 300,
+      "start": 294,
+      "end": 306,
       "loc": {
         "start": {
           "line": 7,
@@ -1777,8 +1777,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 300,
-      "end": 301,
+      "start": 306,
+      "end": 307,
       "loc": {
         "start": {
           "line": 7,
@@ -1803,8 +1803,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 302,
-      "end": 302,
+      "start": 309,
+      "end": 309,
       "loc": {
         "start": {
           "line": 8,

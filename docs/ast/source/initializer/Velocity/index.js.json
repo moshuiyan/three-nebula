@@ -1,7 +1,7 @@
 {
   "type": "File",
   "start": 0,
-  "end": 184,
+  "end": 187,
   "loc": {
     "start": {
       "line": 1,
@@ -15,7 +15,7 @@
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 184,
+    "end": 187,
     "loc": {
       "start": {
         "line": 1,
@@ -117,8 +117,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 60,
-        "end": 121,
+        "start": 61,
+        "end": 122,
         "loc": {
           "start": {
             "line": 2,
@@ -133,8 +133,8 @@
         "specifiers": [
           {
             "type": "ExportSpecifier",
-            "start": 69,
-            "end": 94,
+            "start": 70,
+            "end": 95,
             "loc": {
               "start": {
                 "line": 2,
@@ -147,8 +147,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 69,
-              "end": 76,
+              "start": 70,
+              "end": 77,
               "loc": {
                 "start": {
                   "line": 2,
@@ -164,8 +164,8 @@
             },
             "exported": {
               "type": "Identifier",
-              "start": 80,
-              "end": 94,
+              "start": 81,
+              "end": 95,
               "loc": {
                 "start": {
                   "line": 2,
@@ -183,8 +183,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 102,
-          "end": 120,
+          "start": 103,
+          "end": 121,
           "loc": {
             "start": {
               "line": 2,
@@ -204,8 +204,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 122,
-        "end": 183,
+        "start": 124,
+        "end": 185,
         "loc": {
           "start": {
             "line": 3,
@@ -220,8 +220,8 @@
         "specifiers": [
           {
             "type": "ExportSpecifier",
-            "start": 131,
-            "end": 156,
+            "start": 133,
+            "end": 158,
             "loc": {
               "start": {
                 "line": 3,
@@ -234,8 +234,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 131,
-              "end": 138,
+              "start": 133,
+              "end": 140,
               "loc": {
                 "start": {
                   "line": 3,
@@ -251,8 +251,8 @@
             },
             "exported": {
               "type": "Identifier",
-              "start": 142,
-              "end": 156,
+              "start": 144,
+              "end": 158,
               "loc": {
                 "start": {
                   "line": 3,
@@ -270,8 +270,8 @@
         ],
         "source": {
           "type": "StringLiteral",
-          "start": 164,
-          "end": 182,
+          "start": 166,
+          "end": 184,
           "loc": {
             "start": {
               "line": 3,
@@ -546,8 +546,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 60,
-      "end": 66,
+      "start": 61,
+      "end": 67,
       "loc": {
         "start": {
           "line": 2,
@@ -571,8 +571,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 67,
-      "end": 68,
+      "start": 68,
+      "end": 69,
       "loc": {
         "start": {
           "line": 2,
@@ -599,8 +599,8 @@
         "updateContext": null
       },
       "value": "default",
-      "start": 69,
-      "end": 76,
+      "start": 70,
+      "end": 77,
       "loc": {
         "start": {
           "line": 2,
@@ -625,8 +625,8 @@
         "binop": null
       },
       "value": "as",
-      "start": 77,
-      "end": 79,
+      "start": 78,
+      "end": 80,
       "loc": {
         "start": {
           "line": 2,
@@ -651,8 +651,8 @@
         "binop": null
       },
       "value": "RadialVelocity",
-      "start": 80,
-      "end": 94,
+      "start": 81,
+      "end": 95,
       "loc": {
         "start": {
           "line": 2,
@@ -676,8 +676,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 95,
-      "end": 96,
+      "start": 96,
+      "end": 97,
       "loc": {
         "start": {
           "line": 2,
@@ -702,8 +702,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 97,
-      "end": 101,
+      "start": 98,
+      "end": 102,
       "loc": {
         "start": {
           "line": 2,
@@ -729,8 +729,8 @@
         "updateContext": null
       },
       "value": "./RadialVelocity",
-      "start": 102,
-      "end": 120,
+      "start": 103,
+      "end": 121,
       "loc": {
         "start": {
           "line": 2,
@@ -755,8 +755,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 120,
-      "end": 121,
+      "start": 121,
+      "end": 122,
       "loc": {
         "start": {
           "line": 2,
@@ -783,8 +783,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 122,
-      "end": 128,
+      "start": 124,
+      "end": 130,
       "loc": {
         "start": {
           "line": 3,
@@ -808,8 +808,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 129,
-      "end": 130,
+      "start": 131,
+      "end": 132,
       "loc": {
         "start": {
           "line": 3,
@@ -836,8 +836,8 @@
         "updateContext": null
       },
       "value": "default",
-      "start": 131,
-      "end": 138,
+      "start": 133,
+      "end": 140,
       "loc": {
         "start": {
           "line": 3,
@@ -862,8 +862,8 @@
         "binop": null
       },
       "value": "as",
-      "start": 139,
-      "end": 141,
+      "start": 141,
+      "end": 143,
       "loc": {
         "start": {
           "line": 3,
@@ -888,8 +888,8 @@
         "binop": null
       },
       "value": "VectorVelocity",
-      "start": 142,
-      "end": 156,
+      "start": 144,
+      "end": 158,
       "loc": {
         "start": {
           "line": 3,
@@ -913,8 +913,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 157,
-      "end": 158,
+      "start": 159,
+      "end": 160,
       "loc": {
         "start": {
           "line": 3,
@@ -939,8 +939,8 @@
         "binop": null
       },
       "value": "from",
-      "start": 159,
-      "end": 163,
+      "start": 161,
+      "end": 165,
       "loc": {
         "start": {
           "line": 3,
@@ -966,8 +966,8 @@
         "updateContext": null
       },
       "value": "./VectorVelocity",
-      "start": 164,
-      "end": 182,
+      "start": 166,
+      "end": 184,
       "loc": {
         "start": {
           "line": 3,
@@ -992,8 +992,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 182,
-      "end": 183,
+      "start": 184,
+      "end": 185,
       "loc": {
         "start": {
           "line": 3,
@@ -1018,8 +1018,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 184,
-      "end": 184,
+      "start": 187,
+      "end": 187,
       "loc": {
         "start": {
           "line": 4,

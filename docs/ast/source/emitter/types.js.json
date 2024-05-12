@@ -1,7 +1,7 @@
 {
   "type": "File",
   "start": 0,
-  "end": 99,
+  "end": 101,
   "loc": {
     "start": {
       "line": 1,
@@ -15,7 +15,7 @@
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 99,
+    "end": 101,
     "loc": {
       "start": {
         "line": 1,
@@ -119,8 +119,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 47,
-        "end": 98,
+        "start": 48,
+        "end": 99,
         "loc": {
           "start": {
             "line": 2,
@@ -135,8 +135,8 @@
         "source": null,
         "declaration": {
           "type": "VariableDeclaration",
-          "start": 54,
-          "end": 98,
+          "start": 55,
+          "end": 99,
           "loc": {
             "start": {
               "line": 2,
@@ -150,8 +150,8 @@
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 60,
-              "end": 97,
+              "start": 61,
+              "end": 98,
               "loc": {
                 "start": {
                   "line": 2,
@@ -164,8 +164,8 @@
               },
               "id": {
                 "type": "Identifier",
-                "start": 60,
-                "end": 79,
+                "start": 61,
+                "end": 80,
                 "loc": {
                   "start": {
                     "line": 2,
@@ -181,8 +181,8 @@
               },
               "init": {
                 "type": "StringLiteral",
-                "start": 82,
-                "end": 97,
+                "start": 83,
+                "end": 98,
                 "loc": {
                   "start": {
                     "line": 2,
@@ -388,8 +388,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 47,
-      "end": 53,
+      "start": 48,
+      "end": 54,
       "loc": {
         "start": {
           "line": 2,
@@ -416,8 +416,8 @@
         "updateContext": null
       },
       "value": "const",
-      "start": 54,
-      "end": 59,
+      "start": 55,
+      "end": 60,
       "loc": {
         "start": {
           "line": 2,
@@ -442,8 +442,8 @@
         "binop": null
       },
       "value": "EMITTER_TYPE_FOLLOW",
-      "start": 60,
-      "end": 79,
+      "start": 61,
+      "end": 80,
       "loc": {
         "start": {
           "line": 2,
@@ -469,8 +469,8 @@
         "updateContext": null
       },
       "value": "=",
-      "start": 80,
-      "end": 81,
+      "start": 81,
+      "end": 82,
       "loc": {
         "start": {
           "line": 2,
@@ -496,8 +496,8 @@
         "updateContext": null
       },
       "value": "FollowEmitter",
-      "start": 82,
-      "end": 97,
+      "start": 83,
+      "end": 98,
       "loc": {
         "start": {
           "line": 2,
@@ -522,8 +522,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 97,
-      "end": 98,
+      "start": 98,
+      "end": 99,
       "loc": {
         "start": {
           "line": 2,
@@ -548,8 +548,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 99,
-      "end": 99,
+      "start": 101,
+      "end": 101,
       "loc": {
         "start": {
           "line": 3,
