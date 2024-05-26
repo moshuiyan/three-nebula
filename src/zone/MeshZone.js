@@ -50,7 +50,7 @@ export default class MeshZone extends Zone {
   }
 
   getPosition() {
-    const vertices = this.geometry.vertices;
+    const vertices = this.geometry.getAttribute('position').array;
     const rVector = vertices[(vertices.length * Math.random()) >> 0];
 
     this.vector.x = rVector.x * this.scale;

@@ -19,6 +19,7 @@ import ParticleSystem, {
 } from 'three-nebula';
 
 import snow from '../../../assets/snow.png';
+import { Float32BufferAttribute } from 'three';
 
 let THREE;
 
@@ -30,24 +31,28 @@ const createPlane = () => {
       fog: false,
     })
   );
-
+// 两边的山没显示出来，我知道是随机z的值来造地形，不过目前的结果挺奇怪的
   const planeGeometry = plane.geometry;
-
-  for (let i = 0, l = planeGeometry.vertices.length; i < l; i++) {
+  const positionAttribute = planeGeometry.getAttribute('position');
+  const vertices = positionAttribute.array;
+  const l = positionAttribute.count; 
+  // 以10个顶点为一个周期
+  for (let i = 0; i < l; i++) {
     const y = Math.floor(i / 10);
     const x = i - y * 10;
 
     if (x === 4 || x === 5) {
-      planeGeometry.vertices[i].z = 0;
+      vertices[i * 3] = 0;
     } else {
-      planeGeometry.vertices[i].z = Math.random() * 480 - 240;
+      vertices[i * 3] = x * -100;
     }
 
     if (y === 0 || y === 24) {
-      planeGeometry.vertices[i].z = -60;
+      vertices[i * 3] = -60;
     }
   }
-
+  // planeGeometry.setAttribute('position', new Float32BufferAttribute(vertices, 3));
+  // planeGeometry.getAttribute('position').needsUpdate = true;
   plane.rotation.x = -Math.PI / 3;
   plane.position.y = -200;
 

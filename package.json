@@ -16,7 +16,7 @@
     "website": "website"
   },
   "scripts": {
-    "build": "npm run build:clean && npm run build:umd && npm run build:cjs && npm run build:esm",
+    "build": "npm run clean:build && npm run build:umd && npm run build:cjs && npm run build:esm",
     "build:clean": "rm -rf ./build",
     "clean:build":" rd /s /q build",
     "build:umd": "webpack",
