@@ -42,13 +42,13 @@ const createPlane = () => {
     const x = i - y * 10;
 
     if (x === 4 || x === 5) {
-      vertices[i * 3] = 0;
+      vertices[i * 3+ 2] = 0;
     } else {
-      vertices[i * 3] = x * -100;
+      vertices[i * 3+ 2] = Math.random()* 480 - 240;
     }
 
     if (y === 0 || y === 24) {
-      vertices[i * 3] = -60;
+      vertices[i * 3 + 2] = 60;
     }
   }
   // planeGeometry.setAttribute('position', new Float32BufferAttribute(vertices, 3));
