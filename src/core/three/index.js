@@ -1,4 +1,4 @@
-export { Vector3 } from './Vector3';
-export { Quaternion } from './Quaternion';
-export { Euler } from './Euler';
+export { Vector3 } from 'three';
+export { Quaternion } from 'three';
+export { Euler } from 'three';
 export * from './constants';
