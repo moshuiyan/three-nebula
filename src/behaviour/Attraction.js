@@ -13,7 +13,7 @@ import { BEHAVIOUR_TYPE_ATTRACTION as type } from './types';
 
 /**
  * Behaviour that causes particles to be attracted to a target position.
- *
+ *引力 朝着某个位置靠近
  */
 export default class Attraction extends Behaviour {
   /**

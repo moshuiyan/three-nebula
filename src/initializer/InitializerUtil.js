@@ -1,4 +1,4 @@
-import { Euler } from '../core/three/';
+import { Euler } from 'three';
 
 const particleEuler = new Euler();
 

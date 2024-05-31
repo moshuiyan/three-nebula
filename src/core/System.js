@@ -4,6 +4,7 @@ import EventDispatcher, {
   SYSTEM_UPDATE,
   SYSTEM_UPDATE_AFTER,
 } from '../events';
+import * as THREE from 'three';
 
 import { DEFAULT_SYSTEM_DELTA } from './constants';
 import Emitter from '../emitter/Emitter';
@@ -92,8 +93,8 @@ export default class System {
    *
    * @deprecated use fromJSONAsync instead
    */
-  static fromJSON(json, THREE) {
-    return fromJSON(json, THREE, System, Emitter);
+  static fromJSON(json, ) {
+    return fromJSON(json,  System, Emitter);
   }
 
   /**
@@ -105,8 +106,8 @@ export default class System {
    * @param {?object} options - Optional config options
    * @return {Promise<System>}
    */
-  static fromJSONAsync(json, THREE, options) {
-    return fromJSONAsync(json, THREE, System, Emitter, options);
+  static fromJSONAsync(json,  options) {
+    return fromJSONAsync(json,  System, Emitter, options);
   }
 
   /**

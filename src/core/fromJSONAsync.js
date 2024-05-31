@@ -1,5 +1,6 @@
 import * as Behaviour from '../behaviour';
 import * as Initializer from '../initializer';
+import * as THREE from 'three';
 
 import { EULER, POOL_MAX } from '../constants';
 import {
@@ -28,7 +29,7 @@ const makeRate = json => Rate.fromJSON(json);
  * @param {object} THREE - The Web GL Api to use
  * @return {array<Initializer>}
  */
-const makeInitializers = (items, THREE) =>
+const makeInitializers = (items) =>
   new Promise((resolve, reject) => {
     if (!items.length) {
       return resolve([]);
@@ -53,7 +54,7 @@ const makeInitializers = (items, THREE) =>
       }
 
       if (INITIALIZER_TYPES_THAT_REQUIRE_THREE.includes(type)) {
-        madeInitializers.push(Initializer[type].fromJSON(properties, THREE));
+        madeInitializers.push(Initializer[type].fromJSON(properties));
       } else {
         madeInitializers.push(Initializer[type].fromJSON(properties));
       }
@@ -86,7 +87,6 @@ const makeInitializers = (items, THREE) =>
                 ...properties,
                 loadedTexture,
               },
-              THREE
             )
           );
 
@@ -132,7 +132,7 @@ const makeBehaviours = items =>
     });
   });
 
-const makeEmitters = (emitters, Emitter, THREE, shouldAutoEmit) =>
+const makeEmitters = (emitters, Emitter,  shouldAutoEmit) =>
   new Promise((resolve, reject) => {
     if (!emitters.length) {
       return resolve([]);
@@ -163,7 +163,7 @@ const makeEmitters = (emitters, Emitter, THREE, shouldAutoEmit) =>
         .setRotation(rotation)
         .setPosition(position);
 
-      makeInitializers(initializers, THREE)
+      makeInitializers(initializers)
         .then(madeInitializers => {
           emitter.setInitializers(madeInitializers);
 
@@ -207,7 +207,7 @@ const makeEmitters = (emitters, Emitter, THREE, shouldAutoEmit) =>
  * @param {object} [options={}] - Optional config options
  * @return {Promise<System>}
  */
-export default (json, THREE, System, Emitter, options = {}) =>
+export default (json,  System, Emitter, options = {}) =>
   new Promise((resolve, reject) => {
     const {
       preParticles = POOL_MAX,
@@ -217,7 +217,7 @@ export default (json, THREE, System, Emitter, options = {}) =>
     const system = new System(preParticles, integrationType);
     const { shouldAutoEmit } = { ...DEFAULT_OPTIONS, ...options };
 
-    makeEmitters(emitters, Emitter, THREE, shouldAutoEmit)
+    makeEmitters(emitters, Emitter,  shouldAutoEmit)
       .then(madeEmitters => {
         const numberOfEmitters = madeEmitters.length;
 

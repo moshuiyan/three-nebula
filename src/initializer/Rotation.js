@@ -1,4 +1,4 @@
-import { Vector3 } from '../core/three';
+import { Vector3 } from 'three';
 import Initializer from './Initializer';
 import { INITIALIZER_TYPE_ROTATION as type } from './types';
 

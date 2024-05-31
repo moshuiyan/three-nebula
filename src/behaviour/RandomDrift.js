@@ -7,7 +7,7 @@ import { BEHAVIOUR_TYPE_RANDOM_DRIFT as type } from './types';
 
 /**
  * Behaviour that causes particles to drift to random coordinates in 3D space.
- *
+ *或许可以叫他 分子热运动
  */
 export default class RandomDrift extends Behaviour {
   /**

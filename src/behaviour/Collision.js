@@ -4,6 +4,7 @@ import { BEHAVIOUR_TYPE_COLLISION as type } from './types';
 
 /**
  * Behaviour that causes particles to move away from other particles they collide with.
+ * 粒子碰撞之后相互远离
  */
 export default class Collision extends Behaviour {
   /**

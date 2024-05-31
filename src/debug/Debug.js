@@ -1,4 +1,5 @@
 import { DEFAULT_POSITION, DEFAULT_SIZE as size } from './constants';
+import * as THREE from 'three';
 
 /**
  * @exports Debug - methods and helpers for debugging System emitters, zones and particles.
@@ -26,7 +27,7 @@ export default {
    * @param {Zone} zone - a Zone instance
    * @return void
    */
-  drawZone: function(THREE, system, container, zone = {}) {
+  drawZone: function( system, container, zone = {}) {
     const color = '#2194ce';
     const wireframe = true;
     const {

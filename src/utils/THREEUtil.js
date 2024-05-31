@@ -1,4 +1,4 @@
-import { Vector3 } from '../core/three/';
+import { Vector3 } from 'three';
 
 export default {
   toScreenPos: (function() {

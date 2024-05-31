@@ -6,6 +6,7 @@ import {
 import { DATA_TEXTURE_SIZE } from './constants';
 import { __DEV__ } from '../../../../constants';
 import potpack from 'potpack';
+import * as THREE from 'three';
 
 /**
  * Dynamic texture atlas for performant support of systems with multiple emitters and textures.
@@ -13,7 +14,7 @@ import potpack from 'potpack';
  */
 export default class TextureAtlas {
   constructor(renderer, shouldDebug) {
-    const { three: THREE, type: rendererType } = renderer;
+    const {  type: rendererType } = renderer;
     const data = new Float32Array(DATA_TEXTURE_SIZE * 4);
     const ctx = (this.ctx = document.createElement('canvas').getContext('2d'));
     const { canvas } = ctx;

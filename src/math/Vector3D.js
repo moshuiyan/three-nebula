@@ -1,4 +1,4 @@
-import { Euler, Vector3 } from '../core/three/';
+import { Euler, Vector3 } from 'three';
 
 export default class Vector3D extends Vector3 {
   clear() {

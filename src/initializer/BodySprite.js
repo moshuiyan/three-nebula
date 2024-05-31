@@ -3,6 +3,7 @@ import {
   DEFAULT_MATERIAL_PROPERTIES,
   SUPPORTED_MATERIAL_BLENDING_MODES,
 } from './constants';
+import * as THREE from 'three';
 
 import Initializer from './Initializer';
 import { INITIALIZER_TYPE_BODY_SPRITE as type } from './types';
@@ -25,7 +26,7 @@ export default class BodySprite extends Initializer {
    * @return void
    */
   constructor(
-    THREE,
+    
     texture,
     materialProperties = DEFAULT_MATERIAL_PROPERTIES,
     isEnabled = true
@@ -94,7 +95,7 @@ export default class BodySprite extends Initializer {
    * @param {object} json.materialProperties - The sprite material properties
    * @return {BodySprite}
    */
-  static fromJSON(json, THREE) {
+  static fromJSON(json) {
     const {
       texture,
       materialProperties = DEFAULT_JSON_MATERIAL_PROPERTIES,
@@ -115,7 +116,7 @@ export default class BodySprite extends Initializer {
     };
 
     return new BodySprite(
-      THREE,
+      
       texture,
       withDefaults(
         DEFAULT_JSON_MATERIAL_PROPERTIES,

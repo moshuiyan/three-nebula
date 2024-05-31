@@ -3,6 +3,7 @@ import {
   DEFAULT_MATERIAL_PROPERTIES,
   SUPPORTED_MATERIAL_BLENDING_MODES,
 } from './constants';
+import * as THREE from 'three';
 
 import Initializer from './Initializer';
 import { INITIALIZER_TYPE_TEXTURE as type } from './types';
@@ -22,7 +23,7 @@ export default class Texture extends Initializer {
    * @param {?Texture} loadedTexture - Preloaded THREE.Texture instance
    */
   constructor(
-    THREE,
+    
     loadedTexture,
     materialProperties = DEFAULT_MATERIAL_PROPERTIES,
     isEnabled = true
@@ -82,7 +83,7 @@ export default class Texture extends Initializer {
    * @param {object} json.materialProperties - The sprite material properties
    * @return {BodySprite}
    */
-  static fromJSON(json, THREE) {
+  static fromJSON(json) {
     const {
       loadedTexture,
       materialProperties = DEFAULT_JSON_MATERIAL_PROPERTIES,
@@ -103,7 +104,7 @@ export default class Texture extends Initializer {
     };
 
     return new Texture(
-      THREE,
+      
       loadedTexture,
       withDefaults(
         DEFAULT_JSON_MATERIAL_PROPERTIES,

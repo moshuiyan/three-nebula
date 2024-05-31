@@ -11,3 +11,5 @@ export * from './utils';
 export * from './zone';
 export { System, Particle, Pool } from './core';
 export default System;
+
+console.log( '%cdev', 'color:#0fff23');

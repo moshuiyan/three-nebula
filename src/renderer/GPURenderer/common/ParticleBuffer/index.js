@@ -4,7 +4,8 @@ import {
   PARTICLE_BYTE_SIZE,
 } from './constants';
 
-let THREE;
+import * as THREE from 'three';
+
 
 /**
  * Creates and provides performant buffers for mapping particle properties to geometry vertices.
@@ -15,8 +16,8 @@ let THREE;
  * @see https://threejs.org/examples/?q=points#webgl_custom_attributes_points
  */
 export default class ParticleBuffer {
-  constructor(maxParticles = DEFAULT_MAX_PARTICLES, three) {
-    THREE = three;
+  constructor(maxParticles = DEFAULT_MAX_PARTICLES) {
+    
     this.maxParticles = maxParticles;
 
     this.createInterleavedBuffer().createBufferGeometry();

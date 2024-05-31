@@ -133,6 +133,7 @@ export default class BoxZone extends Zone {
   }
 
   _cross(particle) {
+    // 如果粒子的最右侧超出box的最左侧 并且粒子还在 向左移动 那么粒子的 x 值设为box的左侧
     if (
       particle.position.x + particle.radius < this.x - this.width / 2 &&
       particle.velocity.x <= 0

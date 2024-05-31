@@ -6,7 +6,8 @@ import { DEFAULT_RENDERER_OPTIONS } from '../common/constants';
 import { Pool } from '../../../core';
 import { RENDERER_TYPE_GPU_DESKTOP } from '../../types';
 
-let THREE;
+import * as THREE from 'three';
+
 
 /**
  * GPURenderer for devices that support floating point textures.
@@ -18,7 +19,6 @@ export default class DesktopGPURenderer extends BaseRenderer {
   constructor(container, three, options = DEFAULT_RENDERER_OPTIONS) {
     super(RENDERER_TYPE_GPU_DESKTOP);
 
-    THREE = this.three = three;
     const props = { ...DEFAULT_RENDERER_OPTIONS, ...options };
     const {
       camera,
@@ -30,7 +30,7 @@ export default class DesktopGPURenderer extends BaseRenderer {
       transparent,
       shouldDebugTextureAtlas,
     } = props;
-    const particleBuffer = new ParticleBuffer(maxParticles, THREE);
+    const particleBuffer = new ParticleBuffer(maxParticles);
     const material = new THREE.ShaderMaterial({
       uniforms: {
         baseColor: { value: new THREE.Color(baseColor) },
@@ -77,7 +77,7 @@ export default class DesktopGPURenderer extends BaseRenderer {
    */
   onParticleCreated(particle) {
     if (!particle.target) {
-      particle.target = this.targetPool.get(Target, THREE);
+      particle.target = this.targetPool.get(Target);
       this.uniqueList.add(particle.id);
     }
 

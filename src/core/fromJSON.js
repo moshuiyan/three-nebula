@@ -9,7 +9,7 @@ import {
 } from './constants';
 
 import Rate from '../initializer/Rate';
-
+import * as THREE from 'three';
 /**
  * Makes a rate instance.
  *
@@ -25,7 +25,7 @@ const makeRate = json => Rate.fromJSON(json);
  * @param {object} THREE - The Web GL Api to use
  * @return {array<Initializer>}
  */
-const makeInitializers = (items, THREE) => {
+const makeInitializers = (items) => {
   const initializers = [];
 
   items.forEach(data => {
@@ -38,7 +38,7 @@ const makeInitializers = (items, THREE) => {
     }
 
     if (INITIALIZER_TYPES_THAT_REQUIRE_THREE.includes(type)) {
-      initializers.push(Initializer[type].fromJSON(properties, THREE));
+      initializers.push(Initializer[type].fromJSON(properties));
     } else {
       initializers.push(Initializer[type].fromJSON(properties));
     }
@@ -85,13 +85,13 @@ const makeBehaviours = items => {
  * @param {array<object>} json.emitters - The emitters for the system instance
  * @return {System}
  */
-export default (json, THREE, System, Emitter) => {
+export default (json, System, Emitter) => {
   const {
     preParticles = POOL_MAX,
     integrationType = EULER,
     emitters = [],
   } = json;
-  const system = new System(THREE, preParticles, integrationType);
+  const system = new System( preParticles, integrationType);
 
   emitters.forEach(data => {
     const emitter = new Emitter();
@@ -109,7 +109,7 @@ export default (json, THREE, System, Emitter) => {
     emitter
       .setRate(makeRate(rate))
       .setRotation(rotation)
-      .setInitializers(makeInitializers(initializers, THREE))
+      .setInitializers(makeInitializers(initializers))
       .setBehaviours(makeBehaviours(behaviours))
       .setEmitterBehaviours(makeBehaviours(emitterBehaviours))
       .setPosition(position)
