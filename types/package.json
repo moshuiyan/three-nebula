@@ -1,0 +1,27 @@
+{
+    "name": "@types/three-nebula",
+    "version": "10.0.4",
+    "description": "TypeScript definitions for three-nebula",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/three-nebula",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "MooNRakeR",
+            "githubUsername": "moonraker22",
+            "url": "https://github.com/moonraker22"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/three-nebula"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/three": "*"
+    },
+    "typesPublisherContentHash": "9f824861022ceafcbddbae688e884ca1aee2896370c63e2ebaf1acdab9f40301",
+    "typeScriptVersion": "4.6"
+}
