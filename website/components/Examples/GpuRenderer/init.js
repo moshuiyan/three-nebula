@@ -25,11 +25,16 @@ let ctha = 0;
 
 const createSprite = () => {
   var map = new THREE.TextureLoader().load(dot);
+  // map.colorSpace = THREE.SRGBColorSpace;
+  map.wrapS = THREE.RepeatWrapping;
+  map.wrapT = THREE.RepeatWrapping;
+  // 改了纹理重复  透明 之后，左边的火焰是一样的了  colorspace不改是对的
   var material = new THREE.SpriteMaterial({
     map: map,
     color: 0xff0000,
     blending: THREE.AdditiveBlending,
     fog: true,
+    transparent: true,
   });
   return new THREE.Sprite(material);
 };
