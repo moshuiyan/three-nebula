@@ -31,20 +31,20 @@ const createPlane = () => {
       fog: false,
     })
   );
-// 两边的山没显示出来，我知道是随机z的值来造地形，不过目前的结果挺奇怪的
+  // 两边的山没显示出来，我知道是随机z的值来造地形，不过目前的结果挺奇怪的
   const planeGeometry = plane.geometry;
   const positionAttribute = planeGeometry.getAttribute('position');
   const vertices = positionAttribute.array;
-  const l = positionAttribute.count; 
+  const l = positionAttribute.count;
   // 以10个顶点为一个周期
   for (let i = 0; i < l; i++) {
     const y = Math.floor(i / 10);
     const x = i - y * 10;
 
     if (x === 4 || x === 5) {
-      vertices[i * 3+ 2] = 0;
+      vertices[i * 3 + 2] = 0;
     } else {
-      vertices[i * 3+ 2] = Math.random()* 480 - 240;
+      vertices[i * 3 + 2] = Math.random() * 480 - 240;
     }
 
     if (y === 0 || y === 24) {

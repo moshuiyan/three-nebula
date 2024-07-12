@@ -42,9 +42,10 @@ const createEmitter = ({ colorA, colorB, camera, renderer }) => {
       new Life(2),
       new Body(createSprite()),
       new Radius(80),
-      new RadialVelocity(200, new Vector3D(0, 0, -1), 0),
+      new RadialVelocity(200, new Vector3D(0, 0, -1), 0), //扭矩 角速度？
     ])
     .setBehaviours([
+      // 如果说上面是基本参数 这里就是指定变化的值及其范围
       new Alpha(1, 0),
       new Color(colorA, colorB),
       new Scale(1, 0.5),
@@ -90,3 +91,4 @@ export default async (three, { scene, camera, renderer }) => {
     .addEmitter(emitterB)
     .addRenderer(new SpriteRenderer(scene, THREE));
 };
+console.log('eightDiagram');
