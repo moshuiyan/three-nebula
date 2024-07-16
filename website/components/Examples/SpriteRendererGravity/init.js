@@ -20,14 +20,17 @@ import ParticleSystem, {
 import dot from '../../../assets/dot.png';
 
 let THREE;
-
+//  这个问题就是， 明显现在的效果比之前要亮度多了一些 所以我怀疑是色调映射的问题
 const createSprite = () => {
   var map = new THREE.TextureLoader().load(dot);
+  map.colorSpace = THREE.SRGBColorSpace;
+
   var material = new THREE.SpriteMaterial({
     map: map,
     color: 0xff0000,
     blending: THREE.AdditiveBlending,
     fog: true,
+    transparent: true,
   });
   return new THREE.Sprite(material);
 };

@@ -1,6 +1,6 @@
 import * as Behaviour from '../behaviour';
 import * as Initializer from '../initializer';
-import * as THREE from 'three';
+import {TextureLoader} from 'three';
 
 import { EULER, POOL_MAX } from '../constants';
 import {
@@ -70,7 +70,7 @@ const makeInitializers = (items) =>
         properties,
         properties: { texture },
       } = data;
-      const textureLoader = new THREE.TextureLoader();
+      const textureLoader = new TextureLoader();
 
       if (!SUPPORTED_JSON_INITIALIZER_TYPES.includes(type)) {
         return reject(

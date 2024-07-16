@@ -1,5 +1,5 @@
 import { DEFAULT_POSITION, DEFAULT_SIZE as size } from './constants';
-import * as THREE from 'three';
+import { SphereGeometry, BoxGeometry, MeshBasicMaterial, OctahedronGeometry, Mesh } from 'three';
 
 /**
  * @exports Debug - methods and helpers for debugging System emitters, zones and particles.
@@ -43,7 +43,7 @@ export default {
     let geometry;
 
     if (zone.isPointZone()) {
-      geometry = new THREE.SphereGeometry(15);
+      geometry = new SphereGeometry(15);
     }
 
     if (zone.isLineZone()) {
@@ -51,11 +51,11 @@ export default {
     }
 
     if (zone.isBoxZone()) {
-      geometry = new THREE.BoxGeometry(width, height, depth);
+      geometry = new BoxGeometry(width, height, depth);
     }
 
     if (zone.isSphereZone()) {
-      geometry = new THREE.SphereGeometry(radius, size, size);
+      geometry = new SphereGeometry(radius, size, size);
     }
 
     if (zone.isMeshZone()) {
@@ -65,13 +65,13 @@ export default {
     }
 
     if (!geometry) {
-      geometry = new THREE.BoxGeometry(width, height, depth);
+      geometry = new BoxGeometry(width, height, depth);
     }
 
-    const material = new THREE.MeshBasicMaterial({ color, wireframe });
+    const material = new MeshBasicMaterial({ color, wireframe });
     // NOTE! geometry.clone is required for UNKNOWN reasons,
     // three does not render the mesh correctly without doing this since r88
-    const mesh = new THREE.Mesh(geometry.clone(), material);
+    const mesh = new Mesh(geometry.clone(), material);
 
     container.add(mesh);
 
@@ -90,14 +90,14 @@ export default {
    * @return void
    */
   drawEmitter: function(THREE, system, container, emitter, color) {
-    const geometry = new THREE.OctahedronGeometry(size);
-    const material = new THREE.MeshBasicMaterial({
+    const geometry = new OctahedronGeometry(size);
+    const material = new MeshBasicMaterial({
       color: color || '#aaa',
       wireframe: true,
     });
     // NOTE! geometry.clone is required for UNKNOWN reasons,
     // three does not render the mesh correctly without doing this since r88
-    const mesh = new THREE.Mesh(geometry.clone(), material);
+    const mesh = new Mesh(geometry.clone(), material);
 
     container.add(mesh);
 

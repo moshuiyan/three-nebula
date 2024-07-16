@@ -3,14 +3,14 @@ import {
   DEFAULT_MATERIAL_PROPERTIES,
   SUPPORTED_MATERIAL_BLENDING_MODES,
 } from './constants';
-import * as THREE from 'three';
+import { Sprite, SpriteMaterial, TextureLoader } from 'three';
 
 import Initializer from './Initializer';
 import { INITIALIZER_TYPE_BODY_SPRITE as type } from './types';
 import { withDefaults } from '../utils';
 
 /**
- * Sets the body property to be a THREE.Sprite on initialized particles.
+ * Sets the body property to be a Sprite on initialized particles.
  *
  * NOTE The texture map MUST be set on the SpriteMaterial in the TextureLoader.load
  * callback. Not doing so will cause WebGL buffer errors.
@@ -33,8 +33,6 @@ export default class BodySprite extends Initializer {
   ) {
     super(type, isEnabled);
 
-    const { Sprite, SpriteMaterial, TextureLoader } = THREE;
-
     /**
      * @desc The material properties for this object's SpriteMaterial
      * NOTE This is required for testing purposes
@@ -49,13 +47,13 @@ export default class BodySprite extends Initializer {
       texture,
       map => {
         /**
-         * @desc The texture for the THREE.SpriteMaterial map.
+         * @desc The texture for the SpriteMaterial map.
          * @type {Texture}
          */
         this.texture = map;
 
         /**
-         * @desc THREE.SpriteMaterial instance.
+         * @desc SpriteMaterial instance.
          * @type {SpriteMaterial}
          */
         this.material = new SpriteMaterial({
@@ -64,7 +62,7 @@ export default class BodySprite extends Initializer {
         });
 
         /**
-         * @desc THREE.Sprite instance.
+         * @desc Sprite instance.
          * @type {Sprite}
          */
         this.sprite = new Sprite(this.material);

@@ -1,3 +1,5 @@
+let UID = 0;
+
 export default {
   initValue: function(value, defaults) {
     var _value = value != null && value != undefined ? value : defaults;
@@ -8,7 +10,17 @@ export default {
   isArray: function(value) {
     return Object.prototype.toString.call(value) === '[object Array]';
   },
-
+  sample(array) {
+    const length = array == null ? 0 : array.length;
+    
+    return length ? array[Math.floor(Math.random() * length)] : undefined;
+  },
+  isNumber(n) {
+    return typeof n === 'number' && !isNaN(n);
+  },
+  uid() {
+    return UID++;
+  },
   destroyArray: function(array) {
     array.length = 0;
   },

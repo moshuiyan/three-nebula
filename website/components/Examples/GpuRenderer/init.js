@@ -24,12 +24,14 @@ let tha = 0;
 let ctha = 0;
 
 const createSprite = () => {
-  var map = new THREE.TextureLoader().load(dot);
+  // 这个页面居然 还和初始化有关，每次刷新页面表现都会变化  打包之后也是如此。只有某次才是和之前一样， 我看了使用的纹理都是一样的
+  //  目前观测到  Rebuilt atlas 这里的log的 texture的尺寸会变化， 而原本的网站是不会的。 好，我终于确定， 这个文件没用上
+  const map = new THREE.TextureLoader().load(dot);
   // map.colorSpace = THREE.SRGBColorSpace;
-  map.wrapS = THREE.RepeatWrapping;
-  map.wrapT = THREE.RepeatWrapping;
+  // map.wrapS = THREE.RepeatWrapping;
+  // map.wrapT = THREE.RepeatWrapping;
   // 改了纹理重复  透明 之后，左边的火焰是一样的了  colorspace不改是对的
-  var material = new THREE.SpriteMaterial({
+  const material = new THREE.SpriteMaterial({
     map: map,
     color: 0xff0000,
     blending: THREE.AdditiveBlending,

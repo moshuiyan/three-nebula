@@ -5,8 +5,8 @@ import {
 
 import { DATA_TEXTURE_SIZE } from './constants';
 import { __DEV__ } from '../../../../constants';
-import potpack from 'potpack';
-import * as THREE from 'three';
+import { potpack } from '../../../../utils/potpack.js';
+import { CanvasTexture, DataTexture, RGBAFormat, FloatType } from 'three';
 
 /**
  * Dynamic texture atlas for performant support of systems with multiple emitters and textures.
@@ -14,7 +14,7 @@ import * as THREE from 'three';
  */
 export default class TextureAtlas {
   constructor(renderer, shouldDebug) {
-    const {  type: rendererType } = renderer;
+    const { type: rendererType } = renderer;
     const data = new Float32Array(DATA_TEXTURE_SIZE * 4);
     const ctx = (this.ctx = document.createElement('canvas').getContext('2d'));
     const { canvas } = ctx;
@@ -26,12 +26,12 @@ export default class TextureAtlas {
     this.entries = [];
 
     if (rendererType === RENDERER_TYPE_GPU_DESKTOP) {
-      this.atlasIndex = new THREE.DataTexture(
+      this.atlasIndex = new DataTexture(
         data,
         DATA_TEXTURE_SIZE,
         1,
-        THREE.RGBAFormat,
-        THREE.FloatType
+        RGBAFormat,
+        FloatType
       );
     }
 
@@ -41,7 +41,7 @@ export default class TextureAtlas {
       this.debug(canvas, ctx);
     }
 
-    this.atlasTexture = new THREE.CanvasTexture(canvas);
+    this.atlasTexture = new CanvasTexture(canvas);
     this.atlasTexture.flipY = false;
 
     renderer.material.uniforms.uTexture.value = this.atlasTexture;

@@ -2,8 +2,8 @@ import { DEFAULT_BEHAVIOUR_EASING, DEFAULT_LIFE } from './constants';
 
 import { BEHAVIOUR_TYPE_ABSTRACT } from './types';
 import { MEASURE } from '../constants';
-import isNumber from 'lodash/isNumber';
-import { uid } from '../utils';
+import utils from '../utils/Util.js';
+const { isNumber, uid} = utils;
 
 /**
  * The base behaviour class.

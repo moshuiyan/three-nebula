@@ -2,14 +2,14 @@ import BaseRenderer from './BaseRenderer';
 import { PUID } from '../utils';
 import { Pool } from '../core';
 import { RENDERER_TYPE_MESH as type } from './types';
-import * as THREE from 'three';
+import { BoxGeometry, MeshLambertMaterial , Mesh} from 'three';
 
 /**
  * @requires THREE - { Mesh, BoxGeometry, MeshLambertMaterial }
  */
 export default class MeshRenderer extends BaseRenderer {
   /**
-   * @param {object} container - An Object3D container, usually a THREE.Scene
+   * @param {object} container - An Object3D container, usually a Scene
    * @param {object} THREE - THREE Api
    */
   constructor(container) {
@@ -18,9 +18,9 @@ export default class MeshRenderer extends BaseRenderer {
     this.container = container;
     this._targetPool = new Pool();
     this._materialPool = new Pool();
-    this._body = new THREE.Mesh(
-      new THREE.BoxGeometry(50, 50, 50),
-      new THREE.MeshLambertMaterial({ color: '#ff0000' })
+    this._body = new Mesh(
+      new BoxGeometry(50, 50, 50),
+      new MeshLambertMaterial({ color: '#ff0000' })
     );
   }
 

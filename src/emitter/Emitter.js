@@ -13,13 +13,13 @@ import EventDispatcher, {
   SYSTEM_UPDATE,
 } from '../events';
 import { INTEGRATION_TYPE_EULER, integrate } from '../math';
-import { Util, uid } from '../utils';
+import { Util } from '../utils';
 
 import { InitializerUtil } from '../initializer';
 import Particle from '../core/Particle';
-import isNumber from 'lodash/isNumber';
 import { EMITTER_TYPE_EMITTER as type } from './types';
 
+const { isNumber, uid} = Util;
 /**
  * Emitters are the System engine's particle factories. They cause particles to
  * be rendered by emitting them, and store all particle initializers and behaviours.

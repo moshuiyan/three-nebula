@@ -14,7 +14,7 @@ import {
   DEFAULT_USE_ALPHA,
   DEFAULT_USE_COLOR,
 } from './constants';
-import { Util, uid } from '../utils';
+import { Util } from '../utils';
 
 import { PI } from '../constants';
 import { Vector3D } from '../math';
@@ -55,7 +55,7 @@ export default class Particle {
      * @desc The particle's unique id
      * @type {number}
      */
-    this.id = `particle-${uid()}`;
+    this.id = `particle-${Util.uid()}`;
 
     /**
      * @desc The class type.
