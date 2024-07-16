@@ -23,7 +23,6 @@ let THREE;
 //  这个问题就是， 明显现在的效果比之前要亮度多了一些 所以我怀疑是色调映射的问题
 const createSprite = () => {
   var map = new THREE.TextureLoader().load(dot);
-  map.colorSpace = THREE.SRGBColorSpace;
 
   var material = new THREE.SpriteMaterial({
     map: map,
@@ -57,9 +56,11 @@ const createEmitter = () => {
     .emit();
 };
 
-export default async (three, { scene, camera }) => {
+export default async (three, { scene, camera , renderer}) => {
   THREE = three;
-
+  console.log( renderer);
+  //  改这个就好了默认是 SRGBColorSpace    原因再看吧 useLegacyLights 这个没有光 所以不影响 toneMapping 还没研究 toneMappingExposure 这个不影响
+  renderer.outputColorSpace = THREE.LinearSRGBColorSpace; 
   const system = new ParticleSystem();
 
   camera.position.z = 500;
