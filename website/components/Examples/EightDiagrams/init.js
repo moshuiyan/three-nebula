@@ -70,6 +70,7 @@ const animateEmitters = (a, b, tha = 0, radius = 70) => {
 export default async (three, { scene, camera, renderer }) => {
   THREE = three;
 
+  renderer.outputColorSpace = THREE.LinearSRGBColorSpace; 
   const system = new ParticleSystem();
   const emitterA = createEmitter({
     colorA: '#4F1500',

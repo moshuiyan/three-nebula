@@ -107,6 +107,7 @@ export class Nebula extends Component {
     return (
       <div className="canvas-container" ref={this.containerRef}>
         {shouldShowStats && <Stats />}
+        {/*  这个属性的作用是查看GitHub上的文件 */}
         {srcHref && <ViewSource href={srcHref} />}
         <canvas
           ref={this.canvasRef}
