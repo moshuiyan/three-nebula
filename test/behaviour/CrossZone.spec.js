@@ -1,10 +1,10 @@
 /*global describe, it */
 
-import * as Nebula from '../../src';
+import * as Nebula from '../../src/index.js';
 
-import { TIME } from '../constants';
+import { TIME } from '../constants.js';
 import chai from 'chai';
-import { getEasingByName } from '../../src/ease';
+import { getEasingByName } from '../../src/ease/index.js';
 import sinon from 'sinon';
 
 const { spy } = sinon;

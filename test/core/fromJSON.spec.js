@@ -1,6 +1,6 @@
 /*global describe, it */
 
-import * as Nebula from '../../src';
+import * as Nebula from '../../src/index.js';
 import * as THREE from 'three';
 
 import Particles from '../../src/core/System';

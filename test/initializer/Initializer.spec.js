@@ -1,6 +1,6 @@
 /*global describe, it */
 
-import * as Nebula from '../../src';
+import * as Nebula from '../../src/index.js';
 
 import Initializer from '../../src/initializer/Initializer';
 import chai from 'chai';

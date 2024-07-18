@@ -1,11 +1,11 @@
 /*global describe, it */
 
-import * as Nebula from '../../src';
+import * as Nebula from '../../src/index.js';
 
 import { DEFAULT_RANDOM_DRIFT_DELAY } from '../../src/behaviour/constants';
-import { TIME } from '../constants';
+import { TIME } from '../constants.js';
 import chai from 'chai';
-import { getEasingByName } from '../../src/ease';
+import { getEasingByName } from '../../src/ease/index.js';
 
 const { assert } = chai;
 

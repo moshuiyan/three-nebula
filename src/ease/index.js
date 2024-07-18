@@ -146,3 +146,11 @@ export const setEasingByName = easeName => {
 
 export const getEasingByName = name =>
   ease[name] ? ease[name] : ease.easeLinear;
+
+
+  function getvalue(target){
+ Promise.resolve().then((v)=> {
+
+   target.value = v
+ })
+}

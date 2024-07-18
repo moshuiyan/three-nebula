@@ -1,8 +1,8 @@
 /*global describe, it */
 
-import * as Nebula from '../../src';
+import * as Nebula from '../../src/index.js';
 
-import Behaviour from '../../src/behaviour/Behaviour';
+import Behaviour from '../../src/behaviour/Behaviour.js';
 import chai from 'chai';
 import sinon from 'sinon';
 

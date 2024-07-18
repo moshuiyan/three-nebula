@@ -1,8 +1,8 @@
 /*global describe, it */
 
-import * as Nebula from '../../src';
+import * as Nebula from '../../src/index.js';
 
-import { TIME } from '../constants';
+import { TIME } from '../constants.js';
 import chai from 'chai';
 import sinon from 'sinon';
 

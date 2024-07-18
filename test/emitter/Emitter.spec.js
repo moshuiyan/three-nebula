@@ -1,6 +1,6 @@
 /*global describe, it */
 
-import * as Nebula from '../../src';
+import * as Nebula from '../../src/index.js';
 import * as integration from '../../src/math/integration';
 
 import {
@@ -14,7 +14,7 @@ import EventDispatcher, {
   PARTICLE_UPDATE,
 } from '../../src/events/';
 
-import { TIME } from '../constants';
+import { TIME } from '../constants.js';
 import chai from 'chai';
 import sinon from 'sinon';
 
