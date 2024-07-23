@@ -4,7 +4,7 @@ import {
   PARTICLE_BYTE_SIZE,
 } from './constants';
 
-import * as THREE from 'three';
+import { InterleavedBuffer , InterleavedBufferAttribute, BufferGeometry } from 'three';
 
 
 /**
@@ -31,11 +31,11 @@ export default class ParticleBuffer {
   createInterleavedBuffer() {
     const arrayBuffer = new ArrayBuffer(this.maxParticles * PARTICLE_BYTE_SIZE);
 
-    this.interleavedBuffer = new THREE.InterleavedBuffer(
+    this.interleavedBuffer = new InterleavedBuffer(
       new Float32Array(arrayBuffer),
       PARTICLE_BYTE_SIZE
     );
-    // this.interleavedBuffer.usage = THREE.DynamicDrawUsage;
+    // this.interleavedBuffer.usage = DynamicDrawUsage;
     
     return this;
   }
@@ -49,7 +49,7 @@ export default class ParticleBuffer {
    * @return {ParticleBufferGeometry}
    */
   createBufferGeometry() {
-    this.geometry = new THREE.BufferGeometry();
+    this.geometry = new BufferGeometry();
 
     const { interleavedBuffer, geometry } = this;
 
@@ -58,7 +58,7 @@ export default class ParticleBuffer {
 
       geometry.setAttribute(
         attribute,
-        new THREE.InterleavedBufferAttribute(interleavedBuffer, size, offset)
+        new InterleavedBufferAttribute(interleavedBuffer, size, offset)
       );
 
       return (offset += size);
@@ -70,7 +70,7 @@ export default class ParticleBuffer {
   /**
    * Gets the publicly accessible interleaved buffer.
    *
-   * @return {THREE.InterleavedBuffer} buffers - The interleaved buffer
+   * @return {InterleavedBuffer} buffers - The interleaved buffer
    */
   get buffer() {
     return this.interleavedBuffer;

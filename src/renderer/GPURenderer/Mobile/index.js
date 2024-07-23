@@ -6,6 +6,8 @@ import { DEFAULT_RENDERER_OPTIONS } from '../common/constants';
 import { Pool } from '../../../core';
 import { RENDERER_TYPE_GPU_MOBILE } from '../../types';
 
+import  {Sprite, ShaderMaterial, Color,Vector2, Points}  from 'three';
+
 import * as THREE from 'three';
 
 /**
@@ -29,12 +31,12 @@ export default class MobileGPURenderer extends BaseRenderer {
       shouldDebugTextureAtlas,
     } = props;
     const particleBuffer = new ParticleBuffer(maxParticles);
-    const material = new THREE.ShaderMaterial({
+    const material = new ShaderMaterial({
       uniforms: {
-        baseColor: { value: new THREE.Color(baseColor) },
+        baseColor: { value: new Color(baseColor) },
         uTexture: { value: null },
         FFatlasIndex: { value: null },
-        atlasDim: { value: new THREE.Vector2() },
+        atlasDim: { value: new Vector2() },
       },
       vertexShader: vertexShader(),
       fragmentShader: fragmentShader(),
@@ -52,7 +54,7 @@ export default class MobileGPURenderer extends BaseRenderer {
     this.stride = particleBuffer.stride;
     this.geometry = particleBuffer.geometry;
     this.material = material;
-    this.points = new THREE.Points(this.geometry, this.material);
+    this.points = new Points(this.geometry, this.material);
     this.points.frustumCulled = false;
     this.shouldDebugTextureAtlas = shouldDebugTextureAtlas;
 
@@ -136,7 +138,7 @@ export default class MobileGPURenderer extends BaseRenderer {
     particle.target.alpha = alpha;
     particle.target.index = this.uniqueList.find(id);
 
-    if (body && body instanceof THREE.Sprite) {
+    if (body && body instanceof Sprite) {
       const { map } = body.material;
 
       particle.target.texture = map;

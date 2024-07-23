@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { Vector3, Euler, AdditiveBlending, CustomBlending, MultiplyBlending, NoBlending, NormalBlending, SubtractiveBlending, TextureLoader, SpriteMaterial, Sprite, SphereGeometry, BoxGeometry, MeshBasicMaterial, Mesh, OctahedronGeometry, MeshLambertMaterial, Color as Color$1, DataTexture, RGBAFormat, FloatType, CanvasTexture } from 'three';
+import { Vector3, Euler, AdditiveBlending, CustomBlending, MultiplyBlending, NoBlending, NormalBlending, SubtractiveBlending, TextureLoader, SpriteMaterial, Sprite, SphereGeometry, BoxGeometry, MeshBasicMaterial, Mesh, OctahedronGeometry, MeshLambertMaterial, Color as Color$1, InterleavedBuffer, BufferGeometry, InterleavedBufferAttribute, DataTexture, RGBAFormat, FloatType, CanvasTexture, ShaderMaterial, Points, Vector2 } from 'three';
 
 const BEHAVIOUR_TYPE_ABSTRACT = 'Behaviour';
 const BEHAVIOUR_TYPE_ALPHA = 'Alpha';
@@ -6765,8 +6765,8 @@ class SpriteRenderer extends MeshRenderer {
      * @type {string}
      */
     this.type = RENDERER_TYPE_SPRITE;
-    this._body = new THREE.Sprite(
-      new THREE.SpriteMaterial({ color: 0xffffff })
+    this._body = new Sprite(
+      new SpriteMaterial({ color: 0xffffff })
     );
   }
 
@@ -6911,11 +6911,11 @@ class ParticleBuffer {
   createInterleavedBuffer() {
     const arrayBuffer = new ArrayBuffer(this.maxParticles * PARTICLE_BYTE_SIZE);
 
-    this.interleavedBuffer = new THREE.InterleavedBuffer(
+    this.interleavedBuffer = new InterleavedBuffer(
       new Float32Array(arrayBuffer),
       PARTICLE_BYTE_SIZE
     );
-    // this.interleavedBuffer.usage = THREE.DynamicDrawUsage;
+    // this.interleavedBuffer.usage = DynamicDrawUsage;
     
     return this;
   }
@@ -6929,7 +6929,7 @@ class ParticleBuffer {
    * @return {ParticleBufferGeometry}
    */
   createBufferGeometry() {
-    this.geometry = new THREE.BufferGeometry();
+    this.geometry = new BufferGeometry();
 
     const { interleavedBuffer, geometry } = this;
 
@@ -6938,7 +6938,7 @@ class ParticleBuffer {
 
       geometry.setAttribute(
         attribute,
-        new THREE.InterleavedBufferAttribute(interleavedBuffer, size, offset)
+        new InterleavedBufferAttribute(interleavedBuffer, size, offset)
       );
 
       return (offset += size);
@@ -6950,7 +6950,7 @@ class ParticleBuffer {
   /**
    * Gets the publicly accessible interleaved buffer.
    *
-   * @return {THREE.InterleavedBuffer} buffers - The interleaved buffer
+   * @return {InterleavedBuffer} buffers - The interleaved buffer
    */
   get buffer() {
     return this.interleavedBuffer;
@@ -7342,9 +7342,9 @@ class DesktopGPURenderer extends BaseRenderer {
       shouldDebugTextureAtlas,
     } = props;
     const particleBuffer = new ParticleBuffer(maxParticles);
-    const material = new THREE.ShaderMaterial({
+    const material = new ShaderMaterial({
       uniforms: {
-        baseColor: { value: new THREE.Color(baseColor) },
+        baseColor: { value: new Color$1(baseColor) },
         uTexture: { value: null },
         atlasIndex: { value: null },
       },
@@ -7365,7 +7365,7 @@ class DesktopGPURenderer extends BaseRenderer {
     this.stride = particleBuffer.stride;
     this.geometry = particleBuffer.geometry;
     this.material = material;
-    this.points = new THREE.Points(this.geometry, this.material);
+    this.points = new Points(this.geometry, this.material);
     this.points.frustumCulled = false;
     this.shouldDebugTextureAtlas = shouldDebugTextureAtlas;
 
@@ -7441,7 +7441,7 @@ class DesktopGPURenderer extends BaseRenderer {
     particle.target.alpha = alpha;
     particle.target.index = this.uniqueList.find(id);
 
-    if (body && body instanceof THREE.Sprite) {
+    if (body && body instanceof Sprite) {
       const { map } = body.material;
 
       particle.target.texture = map;
@@ -7683,12 +7683,12 @@ class MobileGPURenderer extends BaseRenderer {
       shouldDebugTextureAtlas,
     } = props;
     const particleBuffer = new ParticleBuffer(maxParticles);
-    const material = new THREE.ShaderMaterial({
+    const material = new ShaderMaterial({
       uniforms: {
-        baseColor: { value: new THREE.Color(baseColor) },
+        baseColor: { value: new Color$1(baseColor) },
         uTexture: { value: null },
         FFatlasIndex: { value: null },
-        atlasDim: { value: new THREE.Vector2() },
+        atlasDim: { value: new Vector2() },
       },
       vertexShader: vertexShader(),
       fragmentShader: fragmentShader(),
@@ -7706,7 +7706,7 @@ class MobileGPURenderer extends BaseRenderer {
     this.stride = particleBuffer.stride;
     this.geometry = particleBuffer.geometry;
     this.material = material;
-    this.points = new THREE.Points(this.geometry, this.material);
+    this.points = new Points(this.geometry, this.material);
     this.points.frustumCulled = false;
     this.shouldDebugTextureAtlas = shouldDebugTextureAtlas;
 
@@ -7790,7 +7790,7 @@ class MobileGPURenderer extends BaseRenderer {
     particle.target.alpha = alpha;
     particle.target.index = this.uniqueList.find(id);
 
-    if (body && body instanceof THREE.Sprite) {
+    if (body && body instanceof Sprite) {
       const { map } = body.material;
 
       particle.target.texture = map;

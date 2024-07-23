@@ -4,7 +4,6 @@ import EventDispatcher, {
   SYSTEM_UPDATE,
   SYSTEM_UPDATE_AFTER,
 } from '../events';
-import * as THREE from 'three';
 
 import { DEFAULT_SYSTEM_DELTA } from './constants';
 import Emitter from '../emitter/Emitter';

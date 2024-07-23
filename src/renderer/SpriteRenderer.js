@@ -1,6 +1,6 @@
 import MeshRenderer from './MeshRenderer';
 import { RENDERER_TYPE_SPRITE as type } from './types';
-import * as THREE from 'three';
+import {Sprite , SpriteMaterial} from 'three';
 
 /**
  * @requires THREE - { Mesh, BoxGeometry, MeshLambertMaterial, Sprite, SpriteMaterial }
@@ -14,8 +14,8 @@ export default class SpriteRenderer extends MeshRenderer {
      * @type {string}
      */
     this.type = type;
-    this._body = new THREE.Sprite(
-      new THREE.SpriteMaterial({ color: 0xffffff })
+    this._body = new Sprite(
+      new SpriteMaterial({ color: 0xffffff })
     );
   }
 
