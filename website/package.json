@@ -5,7 +5,7 @@
     "link-src": "scripts/link-three-nebula",
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3100",
     "export": "next export",
     "lint": "eslint common components content context pages --fix && npx madge --circular common components content context pages",
     "favicon:generate": "npx cli-real-favicon generate ./public/favicon/description.json ./public/favicon/data.json ./public/favicon",

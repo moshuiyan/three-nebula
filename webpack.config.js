@@ -1,36 +1,38 @@
-const path = require('path');
-const ESLintPlugin = require('eslint-webpack-plugin');
-const bundleAnalyzer = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+import  { resolve as _resolve } from 'path';
+import ESLintPlugin from 'eslint-webpack-plugin';
+import { BundleAnalyzerPlugin as bundleAnalyzer } from 'webpack-bundle-analyzer';
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
-module.exports = {
-  mode: process.env.NODE_ENV || 'production',
-  entry: './src/index.js',
-  output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: 'three-nebula.js',
-    library: 'Nebula',
-    libraryTarget: 'umd',
-    globalObject: 'this',
-  },
-  devtool: 'source-map',
-  module: {
-    rules: [
-      {
-        test: /(\.jsx|\.js)$/,
-        loader: 'babel-loader',
-        exclude: /(node_modules)/,
-      },
-    ],
-  },
-  resolve: {
-    modules: [path.resolve('./src'), path.resolve('./node_modules')],
-    extensions: ['.json', '.js'],
-  },
-  plugins: [
-    new bundleAnalyzer({
-      analyzerMode: 'disabled',
-      generateStatsFile: true,
-    }),
-    new ESLintPlugin(),
+export const mode = process.env.NODE_ENV || 'production';
+export const entry = './src/index.js';
+export const output = {
+  path: _resolve(__dirname, 'build'),
+  filename: 'three-nebula.js',
+  library: 'Nebula',
+  libraryTarget: 'umd',
+  globalObject: 'this',
+};
+export const devtool = 'source-map';
+export const module = {
+  rules: [
+    {
+      test: /(\.jsx|\.js)$/,
+      loader: 'babel-loader',
+      exclude: /(node_modules)/,
+    },
   ],
 };
+export const resolve = {
+  modules: [_resolve('./src'), _resolve('./node_modules')],
+  extensions: ['.json', '.js'],
+};
+export const plugins = [
+  new bundleAnalyzer({
+    analyzerMode: 'disabled',
+    generateStatsFile: true,
+  }),
+  new ESLintPlugin(),
+];
